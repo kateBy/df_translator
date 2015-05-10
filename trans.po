@@ -57558,3 +57558,360 @@ msgstr "галенит"
 msgid "talc"
 msgstr "тальк"
 
+msgid "Skirts"
+msgstr "Юбки"
+
+msgid "Training Swords"
+msgstr "Тренировочные мечи"
+
+msgid "Breastplates"
+msgstr "Нагрудники"
+
+msgid "Helms"
+msgstr "Шлемы"
+
+msgid "Robes"
+msgstr "Робы"
+
+msgid "morion"
+msgstr "морион"
+
+msgid "onyx"
+msgstr "оникс"
+
+msgid "Whips"
+msgstr "Кнуты"
+
+msgid "moss agate"
+msgstr "моховой агат"
+
+msgid "Mittens"
+msgstr "Варежки"
+
+msgid "Long Skirts"
+msgstr "Длинные юбки"
+
+msgid "Masks"
+msgstr "Маски"
+
+msgid "Giant Axe Blades"
+msgstr "Гигантские лезвия топоров"
+
+msgid "prase opal"
+msgstr "прозапал"
+
+msgid "Sandals"
+msgstr "Сандалии"
+
+msgid "Trousers"
+msgstr "Брюки"
+
+msgid "backpacks"
+msgstr "рюкзаки"
+
+msgid "Bulky Tunics"
+msgstr "Большие туники"
+
+msgid "sardonyx"
+msgstr "сардоникс"
+
+msgid "clay"
+msgstr "глина"
+
+msgid "Socks"
+msgstr "Носки"
+
+msgid "lapis lazuli"
+msgstr "лазурит"
+
+msgid "Two-handed Swords"
+msgstr "Двуручные мечи"
+
+msgid "Bows"
+msgstr "Луки"
+
+msgid "variscite"
+msgstr "варисцит"
+
+msgid "Greaves"
+msgstr "Поножи"
+
+msgid "Bulky Crossbows"
+msgstr "Большие арбалеты"
+
+msgid "chrysoprase"
+msgstr "хризопраз"
+
+msgid "Capes"
+msgstr "Накидки"
+
+msgid "Battle Axes"
+msgstr "Боевые топоры"
+
+msgid "sard"
+msgstr "сард"
+
+msgid "Mail Shirts"
+msgstr "Кольчуги"
+
+msgid "Loincloths"
+msgstr "Набедренные повязки"
+
+msgid "Thin Greaves"
+msgstr "Тонкие поножи"
+
+msgid "Mauls"
+msgstr "Кувалды"
+
+msgid "Thin Gauntlets"
+msgstr "Тонкие перчатки"
+
+msgid "Head Veils"
+msgstr "Головные вуали"
+
+msgid "gold nuggets"
+msgstr "золотые самородки"
+
+msgid "carnelian"
+msgstr "сердолик"
+
+msgid "Thin Halberds"
+msgstr "Тонкие алебарды"
+
+msgid "Crossbows"
+msgstr "Арбалеты"
+
+msgid "Short Skirts"
+msgstr "Короткие юбки"
+
+msgid "schorl"
+msgstr "шерл"
+
+msgid "Coats"
+msgstr "Пальто"
+
+msgid "Bulky Shoes"
+msgstr "Большие сандалии"
+
+msgid "Pikes"
+msgstr "Пики"
+
+msgid "Low Boots"
+msgstr "Ботинки"
+
+msgid "cherry opal"
+msgstr "вишнёвый опал"
+
+msgid "Turbans"
+msgstr "Тюрбаны"
+
+msgid "Scimitars"
+msgstr "Сабли"
+
+msgid "Large, Serrated Discs"
+msgstr "Большой и зазубренный диски"
+
+msgid "Headscarves"
+msgstr "Головные платки"
+
+msgid "Scourges"
+msgstr "Плети"
+
+msgid "Gauntlets"
+msgstr "Рукавицы"
+
+msgid "prase"
+msgstr "празеолит"
+
+msgid "Cloaks"
+msgstr "Плащи"
+
+msgid "Bolts"
+msgstr "Болты"
+
+msgid "Spiked Balls"
+msgstr "Шары с шипами"
+
+msgid "Chausses"
+msgstr "Чулки"
+
+msgid "Split Skirts"
+msgstr "Юбки с разрезом"
+
+msgid "Morningstars"
+msgstr "Моргенштерны"
+
+msgid "Maces"
+msgstr "Булавы"
+
+msgid "Training Axes"
+msgstr "Тренировочные топоры"
+
+msgid "Vests"
+msgstr "Жилеты"
+
+msgid "Sleek Headscarves"
+msgstr "Изящные платки"
+
+msgid "tanned hides"
+msgstr "дублёные шкуры"
+
+msgid "Dresses"
+msgstr "Платья"
+
+msgid "blue jade"
+msgstr "синий нефрит"
+
+msgid "sandy clay"
+msgstr "песчаная глина"
+
+msgid "moss opal"
+msgstr "моховой опал"
+
+msgid "Training Spears"
+msgstr "Тренировочные копья"
+
+msgid "Halberds"
+msgstr "Алебарды"
+
+msgid "silty clay"
+msgstr "илистая глина"
+
+msgid "shields/bucklers"
+msgstr "щиты/броня"
+
+msgid "lace agate"
+msgstr "кружевной агат"
+
+msgid "Square Breastplates"
+msgstr "Квадратные нагрудники"
+
+msgid "prepared meals"
+msgstr "приготовленые блюда"
+
+msgid "Thongs"
+msgstr "Ремни"
+
+msgid "Arrows"
+msgstr "Стрелы"
+
+msgid "chrysocolla"
+msgstr "хризоколл"
+
+msgid "Great Axes"
+msgstr "Двуручные топоры"
+
+msgid "Wavy Swords"
+msgstr "Изогнутые мечи"
+
+msgid "Shoes"
+msgstr "Башмаки"
+
+msgid "Braies"
+msgstr "Брэ"
+
+msgid "Blowguns"
+msgstr "Духовые трубки"
+
+msgid "Face Veils"
+msgstr "Лицевые вуали"
+
+msgid "Short Bolts"
+msgstr "Короткие Болты"
+
+msgid "High Boots"
+msgstr "Сапоги"
+
+msgid "Tall Bows"
+msgstr "Длинные луки"
+
+msgid "Flails"
+msgstr "Цепы"
+
+msgid "fire clay"
+msgstr "огнеупорная глина"
+
+msgid "banded agate"
+msgstr "дисковый агат"
+
+msgid "Tall Helms"
+msgstr "Высокие шлемы"
+
+msgid "Sleek Mittens"
+msgstr "Изящные варежки"
+
+msgid "Enormous Corkscrews"
+msgstr "Огромные винты"
+
+msgid "Togas"
+msgstr "Тоги"
+
+msgid "War Hammers"
+msgstr "Боевые молоты"
+
+msgid "Hoods"
+msgstr "Капюшоны"
+
+msgid "Thin Spears"
+msgstr "Тонкие копья"
+
+msgid "silver nuggets"
+msgstr "серебряные самородки"
+
+msgid "Menacing Spikes"
+msgstr "Заточеные колья"
+
+msgid "Wide-headed Arrows"
+msgstr "Стрелы с широким наконечником"
+
+msgid "Bucklers"
+msgstr "Баклеры"
+
+msgid "quivers"
+msgstr "колчаны"
+
+msgid "Picks"
+msgstr "Кирки"
+
+msgid "Caps"
+msgstr "Шапки"
+
+msgid "bloodstone"
+msgstr "блудстоун"
+
+msgid "Tunics"
+msgstr "Туники"
+
+msgid "Blowdarts"
+msgstr "Дротики"
+
+msgid "Intricate Low Boots"
+msgstr "Причудливые низкие сапоги"
+
+msgid "Curved Shields"
+msgstr "Изогнутые щиты"
+
+msgid "Shirts"
+msgstr "Рубахи"
+
+msgid "copper nuggets"
+msgstr "медные самородки"
+
+msgid "Short Swords"
+msgstr "Короткие мечи"
+
+msgid "Large Daggers"
+msgstr "Широкие кинжалы"
+
+msgid "Leggings"
+msgstr "Рейтузы"
+
+msgid "Long Swords"
+msgstr "Длинные мечи"
+
+msgid "platinum nuggets"
+msgstr "платиновые самородки"
+
+msgid "clay loam"
+msgstr "глинистый суглинок"
+
