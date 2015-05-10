@@ -21873,7 +21873,7 @@ msgid "LUST_PROPENSITY"
 msgstr "LUST_PROPENSITY"
 
 msgid "Labor"
-msgstr "работе"
+msgstr "работы"
 
 msgid "Lake"
 msgstr "Озеро"
@@ -57914,4 +57914,82 @@ msgstr "платиновые самородки"
 
 msgid "clay loam"
 msgstr "глинистый суглинок"
+
+msgid "Rangers"
+msgstr "Егери"
+
+msgid "Dwarven Children"
+msgstr "Дети"
+
+msgid "Craftsdwarves"
+msgstr "Ремесленники"
+
+msgid "Farmers"
+msgstr "Фермеры"
+
+msgid "Spearmasters"
+msgstr "Мастера копья"
+
+msgid "Stoneworkers"
+msgstr "Каменьщики"
+
+msgid "Axedwarves"
+msgstr "Топорщики"
+
+msgid "Hammerdwarves"
+msgstr "Молотоборцы"
+
+msgid "Hammer Lords"
+msgstr "Лорды Молота"
+
+msgid "Swordmasters"
+msgstr "Мастера Меча"
+
+msgid "Axe Lords"
+msgstr "Лорды Топора"
+
+msgid "Macedwarves"
+msgstr "Булавщики"
+
+msgid "Marksdwarves"
+msgstr "Арбалетчики"
+
+msgid "Miners"
+msgstr "Шахтёры"
+
+msgid "Elite Wrestlers"
+msgstr "Элитные Борцы"
+
+msgid "Woodworkers"
+msgstr "Столяры"
+
+msgid "Swordsdwarves"
+msgstr "Мечники"
+
+msgid "Elite Marksdwarves"
+msgstr "Элитные Арбалетчики"
+
+msgid "Engineers"
+msgstr "Инженеры"
+
+msgid "Jewelers"
+msgstr "Ювелиры"
+
+msgid "Metalsmiths"
+msgstr "Кузнецы"
+
+msgid "Fisherdwarf"
+msgstr "Рыболов"
+
+msgid "Speardwarves"
+msgstr "Копейщики"
+
+msgid "Fishery Workers"
+msgstr "Рыболовы"
+
+msgid "Mace Lords"
+msgstr "Лорды Булавы"
+
+msgid "Wrestlers"
+msgstr "Борцы"
 
