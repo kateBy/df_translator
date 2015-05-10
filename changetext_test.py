@@ -45,7 +45,8 @@ def ChangeText(s):
         last_answer = result
         return result
     else:
-        print('\"%s\"' % decoded)
+        if ch_strings.MAKE_OUTPUT:
+            print('\"%s\"' % decoded)
         last_answer = None
         return None
 

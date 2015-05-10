@@ -57993,3 +57993,33 @@ msgstr "Лорды Булавы"
 msgid "Wrestlers"
 msgstr "Борцы"
 
+msgid "Hen"
+msgstr "Курица"
+
+msgid "Dog"
+msgstr "Собака"
+
+msgid "Yak Cow"
+msgstr "Як"
+
+msgid "Cat"
+msgstr "Кот"
+
+msgid "Rooster"
+msgstr "Петух"
+
+msgid "Sow"
+msgstr "Свинья"
+
+msgid "Boar"
+msgstr "Кабан"
+
+msgid "Pig tail seeds"
+msgstr "Семена свинохвоста"
+
+msgid "Plump helmet spawn"
+msgstr "Споры толстошлемника"
+
+msgid "Plump helmets"
+msgstr "Толстошлемники"
+

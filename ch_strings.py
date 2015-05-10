@@ -3,6 +3,8 @@
 
 import re
 
+MAKE_OUTPUT = True
+
 
 def load_trans_mo(fn):
     '''Загрузка перевода из файла .mo с помощью библиотеки polib'''
@@ -36,9 +38,10 @@ def GetTranslate(_text):
     return None
 
 
-WORD_AND_NUM_IN_COMMONS = re.compile(r"[\w/]+?\s\(\d+?\)$") #Citizens (7) | Pets/Livestock (16)
-SKILLS = re.compile(r"(Novice|Adequate|Proficient|Legendary)\s\w+?") #Novice Miner #Adequate Fish Cleaner
-STRAY_ANIMAL = re.compile(r"(Stray)\s\w+?\s\((Tame)\)$") #Stray Hen (Tame)
+MENU_U_TITLE = re.compile(r"(Citizens|Pets/Livestock|Others|Dead/Missing)\s(\(\d+\))") #Citizens (7) | Pets/Livestock (16)
+SKILLS = re.compile(r"(Novice|Adequate|Proficient|Legendary)\s") #Novice Miner #Adequate Fish Cleaner
+STRAY_ANIMAL = re.compile(r"Stray\s((\w+\s)+)") #Stray Hen (Tame) | Stray Yak Cow (Tame)
+STRAY_ANIMAL_GENDER = re.compile(r"Stray\s(\w+?),\s(♀|♂)\s\((\S+?)\)") #"Stray Dog, ♀♂ (Tame)"
 #TWO_WORDS = re.compile(r"\w+?\s\w+?") 
 #THREE_WORDS = re.compile(r"\w+\s\w+\s\w+") 
 
@@ -46,34 +49,63 @@ STRAY_ANIMAL = re.compile(r"(Stray)\s\w+?\s\((Tame)\)$") #Stray Hen (Tame)
 
 
 def GET_TRANSLATE(original):
+    """Функция проверяет наличие перевода строки, если его нет, возвращает запрашиваему назад"""
     translate = InstanceStrings.get(original)
     if translate == None:
         return original
     else:
         return translate
 
-def PROC_WORD_AND_NUM_IN_COMMONS(text):
-    tmp = text.split(" ") #Делим строку делителем
-    trans = GET_TRANSLATE(tmp[0]) #Запрашиваем перевод первой части
-    return trans + " " + tmp[1]
+def TEST_GENDER(word):
+    """Проверяет какой пол у существительного"""
+    if word[-1] in ['а', 'я']:
+        return "FEMALE"
+    else:
+        return "MALE"
+    
+
+def PROC_MENU_U_TITLE(text):
+    """Функция обработки выражений типа: Citizens (7)"""
+    tmp = MENU_U_TITLE.split(text) #Делим строку делителем
+    trans = GET_TRANSLATE(tmp[1])    #Запрашиваем слова
+    return trans + " " + tmp[2]
 
 
 def PROC_SKILLS(text):
-    tmp = text.split(" ")
-    quality = GET_TRANSLATE(tmp[0])
-    skill  = GET_TRANSLATE(" ".join(tmp[1:]))
+    """Функция обработки выражений типа: Novice Miner"""
+    tmp = SKILLS.split(text)
+    quality = GET_TRANSLATE(tmp[1])
+    skill  = GET_TRANSLATE(tmp[2])
     ret = quality + " " + skill
     return ret
 
+
 def PROC_STRAY_ANIMAL(text):
-    tmp = text.split(" ")
+    """Функция обработки выражений типа: Stray Hen (Tame)"""
+    TEMPLATE = {"MALE":"Ничей %s (Ручной)", "FEMALE":"Ничья %s (Ручная)"}
+
+    animal = STRAY_ANIMAL.split(text)[1].strip()
+    transl = GET_TRANSLATE(animal)
+    gender = TEST_GENDER(transl)
+    return TEMPLATE[gender] % transl
+
+def PROC_STRAY_ANIMAL_GENDER(text):
+    """Функция обрабатывает выражения типа: Stray Dog, ♀ (Tame)"""
+    TEMPLATE = {"MALE":"Ничей %s, %s (Ручной)", "FEMALE":"Ничья %s, %s (Ручная)"}
+
+    tmp = STRAY_ANIMAL_GENDER.split(text)
+    transl = GET_TRANSLATE(tmp[1].strip())
+    gender = TEST_GENDER(transl)
+    return TEMPLATE[gender] % (transl, tmp[2])
+
     
 
 #Словарь регулярных выражений, состоит из самого выражения и функции-обработчика дла нее
 expressions = {
-WORD_AND_NUM_IN_COMMONS:PROC_WORD_AND_NUM_IN_COMMONS,
-SKILLS:PROC_SKILLS,
-STRAY_ANIMAL:PROC_STRAY_ANIMAL
+MENU_U_TITLE:        PROC_MENU_U_TITLE,
+SKILLS:              PROC_SKILLS,
+STRAY_ANIMAL:        PROC_STRAY_ANIMAL,
+STRAY_ANIMAL_GENDER: PROC_STRAY_ANIMAL_GENDER
 }    
     
 
