@@ -55102,3 +55102,407 @@ msgstr "инструменты"
 
 msgid "chains"
 msgstr "цепи"
+
+
+msgid "bolts"
+msgstr "болты"
+
+msgid "gloves"
+msgstr "перчатки"
+
+msgid "  A Dwarven Outpost  "
+msgstr "Дварфийский форпост"
+
+msgid "Giant white storks"
+msgstr "Гигантские белые аисты"
+
+msgid "Ospreys"
+msgstr "Скопы"
+
+msgid "Giant parakeets"
+msgstr "Гигантские попугаи"
+
+msgid "Puffins"
+msgstr "Тупики"
+
+msgid "Needs armor stand"
+msgstr "Нужна доспешная стойка"
+
+msgid "Needs coffin"
+msgstr "Нужен гроб"
+
+msgid "Giant puffins"
+msgstr "Гигантские тупики"
+
+msgid "Kakapo men"
+msgstr "Какаполюды"
+
+msgid "Sparrows"
+msgstr "Воробьи"
+
+msgid "Cassowary men"
+msgstr "Кузуаролюды"
+
+msgid "Swan men"
+msgstr "Лебеделюды"
+
+msgid "Ravens"
+msgstr "Вороны (raven)"
+
+msgid "Kea"
+msgstr "Кеа"
+
+msgid "Giant loons"
+msgstr "Гигантские гагары"
+
+msgid "Sparrow men"
+msgstr "Люди-воробьи"
+
+msgid "Swans"
+msgstr "Лебеди"
+
+msgid "expedition leader"
+msgstr "лидер экспедиции"
+
+msgid "Giant kakapo"
+msgstr "Гигантские какапо"
+
+msgid "Raven men"
+msgstr "Люди-вороны (raven men)"
+
+msgid "Kea men"
+msgstr "Кеалюды"
+
+msgid "Parakeet men"
+msgstr "Длиннохвостые попугаелюды"
+
+msgid "hammerer"
+msgstr "молотобоец"
+
+msgid "Snowy owls"
+msgstr "Полярные совы"
+
+msgid "Toads"
+msgstr "Жабы"
+
+msgid "Puffin men"
+msgstr "Тупиколюды"
+
+msgid "Wrens"
+msgstr "Крапивники"
+
+msgid "White storks"
+msgstr "Белые аисты"
+
+msgid "bookkeeper"
+msgstr "счетовод"
+
+msgid "gauntlets"
+msgstr "латный рукавицы"
+
+msgid "Giant grey parrots"
+msgstr "Гигантские серые попугаи"
+
+msgid "Wren men"
+msgstr "Крапивниколюды"
+
+msgid "White stork men"
+msgstr "Белые аистолюды"
+
+msgid "Loons"
+msgstr "Гагары"
+
+msgid "sheriff"
+msgstr "шериф"
+
+msgid "Worms"
+msgstr "Черви"
+
+msgid "forbidding wilderness beyond, your harsh trek has finally  ended. Your party"
+msgstr "глухомань, ваш полный лишений поход наконец-то завершается. Ваша группа,"
+
+msgid "Needs grate"
+msgstr "Нужна решетка"
+
+msgid "economic item"
+msgstr "материал"
+
+msgid "broker"
+msgstr "брокер"
+
+msgid "Cassowaries"
+msgstr "Казуары"
+
+msgid "Giant kea"
+msgstr "Гигантские кеа"
+
+msgid "Barn owls"
+msgstr "Сипухи"
+
+msgid "Kakapo"
+msgstr "Какапо"
+
+msgid "Lorikeets"
+msgstr "Лори"
+
+msgid "mittens"
+msgstr "рукавицы"
+
+msgid "Needs empty boxes and bag"
+msgstr "Нужнен пустой контейнер"
+
+msgid "Giant ravens"
+msgstr "Гигантские вороны (raven)"
+
+msgid "Needs cabinet"
+msgstr "Нужен шкаф"
+
+msgid "Grey parrot men"
+msgstr "Серые попугаелюды"
+
+msgid "Lorikeet men"
+msgstr "Лорилюды"
+
+msgid "Snowy owl men"
+msgstr "Полярные соволюды"
+
+msgid "militia commander"
+msgstr "воевода"
+
+msgid "Giant lorikeets"
+msgstr "Гигантские лори"
+
+msgid "Barn owl men"
+msgstr "Сипухолюды"
+
+msgid "Needs bars"
+msgstr "Нужны прутья"
+
+msgid "Crows"
+msgstr "Вороны"
+
+msgid "A short, sturdy creature fond of drink and industry."
+msgstr "Невысокое, коренастое существо, любитель выпивки и работы"
+
+msgid "Giant barn owls"
+msgstr "Гигантские сипухи"
+
+msgid "You  have  arrived.   After  a  journey  from  the  Mountainhomes  into  the"
+msgstr "Вы на месте. После путешествия из Горного дома в эту зловещую"
+
+msgid "Needs floodgate"
+msgstr "Нужен шлюз"
+
+msgid "Giant swans"
+msgstr "Гигантские лебеди"
+
+msgid "There   are  almost   no  supplies   left,  but   with  stout  labor   comes"
+msgstr "Почти не осталось припасов, но ударный труд позволит выжить"
+
+msgid "Inactive: No scheduled order"
+msgstr "Бездействует: Нет приказов"
+
+msgid "expecting a supply caravan just before winter entombs you, but  it is Spring"
+msgstr "с припасами перед самой зимой, но сейчас только весна."
+
+msgid "Grey parrots"
+msgstr "Серые попугаи"
+
+msgid "Needs bed"
+msgstr "Нужна кровать"
+
+msgid "Giant cassowaries"
+msgstr "Гигантские казуары"
+
+msgid "Parakeets"
+msgstr "Длиннохвостые попугаи"
+
+msgid "Giant sparrows"
+msgstr "Гигантские воробьи"
+
+msgid "Needs door"
+msgstr "Нужна дверь"
+
+msgid "Giant crows"
+msgstr "Гигантские вороны"
+
+msgid "Crow men"
+msgstr "Люди-вороны"
+
+msgid "Needs throne"
+msgstr "Нужен стул или трон"
+
+msgid "Loon men"
+msgstr "Гагаролюды"
+
+msgid "manager"
+msgstr "менеджер"
+
+msgid "Needs hatch cover"
+msgstr "Нужен люк"
+
+msgid "chief medical dwarf"
+msgstr "главврач"
+
+msgid "sustenance. Whether by bolt, plow or hook, provide for your dwarves. You are"
+msgstr "Обеспечьте своих дварфов всем, будь то болт, плуг или крючок. Ожидайте карван"
+
+msgid "Giant snowy owls"
+msgstr "Гигантские полярные совы"
+
+msgid "Giant wrens"
+msgstr "Гигантские крапивники"
+
+msgid "Giant peach-faced lovebirds"
+msgstr "Гигантские неразлучники"
+
+msgid "Eagles"
+msgstr "Орлы"
+
+msgid "Peach-faced lovebird men"
+msgstr "Розовощекие люди-неразлучники"
+
+msgid "Blue jays"
+msgstr "Голубые сойки"
+
+msgid "Kestrel men"
+msgstr "Люди-пустельги"
+
+msgid "Kiwis"
+msgstr "Киви"
+
+msgid "Hornbill men"
+msgstr "Птиценосороголюды"
+
+msgid "Giant kiwis"
+msgstr "Гигантские киви"
+
+msgid "Masked lovebirds"
+msgstr "Масковые неразлучники"
+
+msgid "Giant peregrine falcons"
+msgstr "Гигантские сапсаны"
+
+msgid "Albatrosses"
+msgstr "Альбатросы"
+
+msgid "Kestrels"
+msgstr "Пустельги"
+
+msgid "Emperor penguins"
+msgstr "Императорские пингвины"
+
+msgid "Hornbills"
+msgstr "Птицы-носороги"
+
+msgid "Peregrine falcons"
+msgstr "Сапсаны"
+
+msgid "Emu men"
+msgstr "Люди-эму"
+
+msgid "Emus"
+msgstr "Эму"
+
+msgid "Bushtits"
+msgstr "Длиннохвостые синицы"
+
+msgid "Giant hornbills"
+msgstr "Гигантские птицы-носороги"
+
+msgid "Magpie men"
+msgstr "Люди-сороки"
+
+msgid "Red-winged blackbirds"
+msgstr "Краснокрылые черные дрозды"
+
+msgid "Giant great horned owls"
+msgstr "Гигантские рогатые филины"
+
+msgid "Masked lovebird men"
+msgstr "Масковые люди-неразлучники"
+
+msgid "Grackles"
+msgstr "Граклы"
+
+msgid "Cockatiels"
+msgstr "Кореллы"
+
+msgid "Giant bushtits"
+msgstr "Гигантские длиннохвостые синицы"
+
+msgid "Great horned owls"
+msgstr "Рогатые филины"
+
+msgid "Giant penguins"
+msgstr "Гигантские пингвины"
+
+msgid "Giant kestrels"
+msgstr "Гигантские пустельги"
+
+msgid "Kiwi men"
+msgstr "Люди-киви"
+
+msgid "Peach-faced lovebirds"
+msgstr "Розовощекие неразлучники"
+
+msgid "Osprey men"
+msgstr "Люди-скопы"
+
+msgid "Magpies"
+msgstr "Сороки"
+
+msgid "Penguin men"
+msgstr "Люди-пингвины"
+
+msgid "Cardinals"
+msgstr "Кардиналы"
+
+msgid "Giant magpies"
+msgstr "Гигантские сороки"
+
+msgid "Giant emus"
+msgstr "Гигантские эму"
+
+msgid "Orioles"
+msgstr "Иволги"
+
+msgid "Albatross men"
+msgstr "Люди-альбатросы"
+
+msgid "Eagle men"
+msgstr "Люди-орлы"
+
+msgid "Peregrine falcon men"
+msgstr "Люди-сапсаны"
+
+msgid "Cockatiel men"
+msgstr "Люди-кореллы"
+
+msgid "Great horned owl men"
+msgstr "Рогатые люди-филины"
+
+msgid "Bushtit men"
+msgstr "Длиннохвостые синицелюды"
+
+msgid "Penguins"
+msgstr "Пингивины"
+
+msgid "Little penguins"
+msgstr "Маленькие пингвины"
+
+msgid "Giant masked lovebirds"
+msgstr "Гигантские неразлучники"
+
+msgid "Giant ospreys"
+msgstr "Гигантские скопы"
+
+msgid "Giant albatrosses"
+msgstr "Гигантские альбатросы"
+
+msgid "Giant eagles"
+msgstr "Гигантские орлы"
+
+msgid "Giant cockatiels"
+msgstr "Гигантские кореллы"
+
