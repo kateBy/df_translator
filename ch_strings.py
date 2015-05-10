@@ -26,69 +26,16 @@ def GetTranslate(_text):
     return None
 
 
-InstanceStrings = {#Главное меню
-                    "Visit Bay 12 Games":"Посетите Bay 12 Games",
-                    "Programmed by Tarn Adams":"Программирование: Тарн Адамс",
-                    "Slaves to Armok:  God of Blood":"Рабы Амрока: Бога крови",
-                    "Designed by Tarn and Zach Adams":"Дизайн: Тарн и Зак Адамс",
-                    "Chapter II: Dwarf Fortress":"Часть II: Крепость Дварфов",
-                    "Dwarf Fortress":"Крепость Дварфов",
 
-                   #Запасы
-                    "raw fish":"свежая рыба",
-                    "drinks":"напитки",
-                    "weapons":"оружие",
-                    "books":"книги",
-                    "traction benches":"тракционные столы",
-                    "ballista arrow heads":"наконечники стрел баллисты",
-                    "totems":"тотемы",
-                    "corpses":"трупы",
-                    "body parts":"части тела",
-                    "small rock":"малый камень",
-                    "splints":"шины",
-                    "crutches":"костыли",
-                    "boxes and bags":"контейнеры",
-                    "bins":"ящики",
-                    "barrels":"бочки",
-                    "buckets":"вёдра",
-                    "trap components":"механизмы",
-                    "flasks":"фляги",
-                    "goblets":"кубки",
-                    "toys":"игрушки",
-                    "tools":"инструменты",
-                    "musical instruments":"музыкальные инструменты",
-                    "figurines":"статуэтки",
-                    "amulets":"амулеты",
-                    "scepters":"скипетры",
-                    "crowns":"короны",
-                    "rings":"кольца",
-                    "earrings":"серьги",
-                    "bracelets":"браслеты",
-                    "large gems":"большие самоцветы",
-                    "coins":"монеты",
-                    "small tame animals":"небольшое ручное животное",
-                    "small live animals":"небольшое животное",
-                    "hatch covers":"крышка люка",
-                    "grates":"решетки",
-                    "querns":"ручная мельница",
-                    "millstones":"жернова",
-                    "windows":"окна",
-                    "animal traps":"силки",
-                    "chains":"цепи",
-                    "cages":"клетки"
-                    
-
-                   
-                   
-                   
-                   
-                   
-    }
+#Сюда вносятся новые строки для теста
+InstanceStrings = {}
 
 
 InstanceStrings.update(load_trans_mo("./libs/trans.mo"))
 
-
+def dictToPo(some_dict):
+    for item in some_dict:
+        print("msgid \"%s\"\nmsgstr \"%s\"\n" % (item, some_dict[item]))
 
 
 

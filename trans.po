@@ -15890,9 +15890,6 @@ msgstr "Клетка темницы"
 msgid "Dusk"
 msgstr "Сумерки"
 
-msgid "Dwarf Fortress"
-msgstr "Dwarf Fortress"
-
 msgid "Dwarf mode"
 msgstr "Режим крепости"
 
@@ -54964,3 +54961,144 @@ msgstr "зомби "
 
 msgid "zombies"
 msgstr "зомби"
+
+msgid "windows"
+msgstr "окна"
+
+msgid "corpses"
+msgstr "трупы"
+
+msgid "grates"
+msgstr "решетки"
+
+msgid "bracelets"
+msgstr "браслеты"
+
+msgid "weapons"
+msgstr "оружие"
+
+msgid "scepters"
+msgstr "скипетры"
+
+msgid "toys"
+msgstr "игрушки"
+
+msgid "small rock"
+msgstr "малый камень"
+
+msgid "buckets"
+msgstr "вёдра"
+
+msgid "amulets"
+msgstr "амулеты"
+
+msgid "large gems"
+msgstr "большие самоцветы"
+
+msgid "crowns"
+msgstr "короны"
+
+msgid "figurines"
+msgstr "статуэтки"
+
+msgid "Dwarf Fortress"
+msgstr "Крепость Дварфов"
+
+msgid "crutches"
+msgstr "костыли"
+
+msgid "flasks"
+msgstr "фляги"
+
+msgid "trap components"
+msgstr "механизмы"
+
+msgid "querns"
+msgstr "ручная мельница"
+
+msgid "animal traps"
+msgstr "силки"
+
+msgid "small tame animals"
+msgstr "небольшое ручное животное"
+
+msgid "totems"
+msgstr "тотемы"
+
+msgid "bins"
+msgstr "ящики"
+
+msgid "cages"
+msgstr "клетки"
+
+msgid "Slaves to Armok:  God of Blood"
+msgstr "Рабы Амрока: Бога крови"
+
+msgid "ballista arrow heads"
+msgstr "наконечники стрел баллисты"
+
+msgid "Visit Bay 12 Games"
+msgstr "Посетите Bay 12 Games"
+
+msgid "traction benches"
+msgstr "тракционные столы"
+
+msgid "rings"
+msgstr "кольца"
+
+msgid "Designed by Tarn and Zach Adams"
+msgstr "Дизайн: Тарн и Зак Адамс"
+
+msgid "musical instruments"
+msgstr "музыкальные инструменты"
+
+msgid "body parts"
+msgstr "части тела"
+
+msgid "barrels"
+msgstr "бочки"
+
+msgid "earrings"
+msgstr "серьги"
+
+msgid "books"
+msgstr "книги"
+
+msgid "drinks"
+msgstr "напитки"
+
+msgid "hatch covers"
+msgstr "крышка люка"
+
+msgid "millstones"
+msgstr "жернова"
+
+msgid "goblets"
+msgstr "кубки"
+
+msgid "splints"
+msgstr "шины"
+
+msgid "boxes and bags"
+msgstr "контейнеры"
+
+msgid "Chapter II: Dwarf Fortress"
+msgstr "Часть II: Крепость Дварфов"
+
+msgid "Programmed by Tarn Adams"
+msgstr "Программирование: Тарн Адамс"
+
+msgid "raw fish"
+msgstr "свежая рыба"
+
+msgid "small live animals"
+msgstr "небольшое животное"
+
+msgid "coins"
+msgstr "монеты"
+
+msgid "tools"
+msgstr "инструменты"
+
+msgid "chains"
+msgstr "цепи"
