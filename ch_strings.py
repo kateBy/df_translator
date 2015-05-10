@@ -43,7 +43,6 @@ def Process(text):
 #Сюда вносятся новые строки для теста
 InstanceStrings = {
 
-
 }
 
 

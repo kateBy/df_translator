@@ -57291,3 +57291,270 @@ msgstr "платина"
 msgid "nickel silver"
 msgstr "нейзильбер"
 
+msgid "mudstone"
+msgstr "аргиллит"
+
+msgid "rutile"
+msgstr "рутил"
+
+msgid "pyrolusite"
+msgstr "пиролюзит"
+
+msgid "hematite"
+msgstr "красный железняк"
+
+msgid "shale"
+msgstr "сланец"
+
+msgid "brimstone"
+msgstr "сера"
+
+msgid "ash glaze"
+msgstr "пепельная глазурь"
+
+msgid "microcline"
+msgstr "микролин"
+
+msgid "cryolite"
+msgstr "криолит"
+
+msgid "andesite"
+msgstr "андезит"
+
+msgid "chert"
+msgstr "кремень"
+
+msgid "siltstone"
+msgstr "алевролит"
+
+msgid "periclase"
+msgstr "периклаз"
+
+msgid "ilmenite"
+msgstr "ильменит"
+
+msgid "dolomite"
+msgstr "доломит"
+
+msgid "gneiss"
+msgstr "гнейс"
+
+msgid "dacite"
+msgstr "дацит"
+
+msgid "basalt"
+msgstr "базальт"
+
+msgid "hornblende"
+msgstr "роговая обманка"
+
+msgid "graphite"
+msgstr "графит"
+
+msgid "kaolinite"
+msgstr "каолинит"
+
+msgid "schist"
+msgstr "аспидный сланец"
+
+msgid "orthoclase"
+msgstr "ортоклаз"
+
+msgid "selenite"
+msgstr "селенит"
+
+msgid "native gold"
+msgstr "самородное золото"
+
+msgid "chalk"
+msgstr "мел"
+
+msgid "rhyolite"
+msgstr "риолит"
+
+msgid "mica"
+msgstr "слюда"
+
+msgid "porcelain"
+msgstr "фарфор"
+
+msgid "cassiterite"
+msgstr "касситерит"
+
+msgid "alabaster"
+msgstr "алебастра"
+
+msgid "malachite"
+msgstr "малахит"
+
+msgid "calcite"
+msgstr "кальцит"
+
+msgid "cobaltite"
+msgstr "кобальтит"
+
+msgid "borax"
+msgstr "борокс"
+
+msgid "pitchblende"
+msgstr "уранинит"
+
+msgid "sandstone"
+msgstr "песчаник"
+
+msgid "olivine"
+msgstr "оливин"
+
+msgid "bismuthinite"
+msgstr "висмутин"
+
+msgid "petrified wood"
+msgstr "окаменелая древесина"
+
+msgid "sphalerite"
+msgstr "сфалерит"
+
+msgid "limestone"
+msgstr "известняк"
+
+msgid "gypsum plaster"
+msgstr "гипс"
+
+msgid "anhydrite"
+msgstr "ангидрит"
+
+msgid "earthenware"
+msgstr "керамика"
+
+msgid "native silver"
+msgstr "самородное серебро"
+
+msgid "marcasite"
+msgstr "марказит"
+
+msgid "gabbro"
+msgstr "габбро"
+
+msgid "tetrahedrite"
+msgstr "тетраэдрит"
+
+msgid "garnierite"
+msgstr "гарниерит"
+
+msgid "quartzite"
+msgstr "кварцит"
+
+msgid "sylvite"
+msgstr "сильвин"
+
+msgid "saltpeter"
+msgstr "селитра"
+
+msgid "phyllite"
+msgstr "филит"
+
+msgid "tin glaze"
+msgstr "оловяная глазурь"
+
+msgid "magnetite"
+msgstr "меагнетит"
+
+msgid "serpentine"
+msgstr "серпентин"
+
+msgid "jet"
+msgstr "гагат"
+
+msgid "rock salt"
+msgstr "каменная соль"
+
+msgid "slate"
+msgstr "грифельный сланец"
+
+msgid "cinnabar"
+msgstr "киноварь"
+
+msgid "slade"
+msgstr "слейд"
+
+msgid "marble"
+msgstr "мрамор"
+
+msgid "satinspar"
+msgstr "шелковый шпат"
+
+msgid "claystone"
+msgstr "каменная глина"
+
+msgid "bituminous coal"
+msgstr "каменный уголь"
+
+msgid "conglomerate"
+msgstr "конгломерат"
+
+msgid "diorite"
+msgstr "диорит"
+
+msgid "stibnite"
+msgstr "стибнит"
+
+msgid "native copper"
+msgstr "самородная медь"
+
+msgid "stoneware"
+msgstr "каменная керамика"
+
+msgid "obsidian"
+msgstr "обсидиан"
+
+msgid "chromite"
+msgstr "хромит"
+
+msgid "granite"
+msgstr "гранит"
+
+msgid "gypsum"
+msgstr "гипс"
+
+msgid "native platinum"
+msgstr "самородная платина"
+
+msgid "puddingstone"
+msgstr "пудинговый конгломерат"
+
+msgid "horn silver"
+msgstr "роговое серебро"
+
+msgid "alunite"
+msgstr "алунит"
+
+msgid "orpiment"
+msgstr "аурипигмент"
+
+msgid "limonite"
+msgstr "бурый железняк"
+
+msgid "raw adamantine"
+msgstr "необработанный адамантин"
+
+msgid "bauxite"
+msgstr "боксит"
+
+msgid "lignite"
+msgstr "бурый уголь"
+
+msgid "realgar"
+msgstr "реальгар"
+
+msgid "kimberlite"
+msgstr "камберлит"
+
+msgid "native aluminum"
+msgstr "самородный аллюминий"
+
+msgid "galena"
+msgstr "галенит"
+
+msgid "talc"
+msgstr "тальк"
+
