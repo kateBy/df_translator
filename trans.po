@@ -57213,3 +57213,81 @@ msgstr "статуи"
 msgid "armor stands"
 msgstr "доспешные стойки"
 
+msgid "billon"
+msgstr "биллон"
+
+msgid "silver"
+msgstr "серебро"
+
+msgid "iron"
+msgstr "железо"
+
+msgid "pig iron"
+msgstr "чугун"
+
+msgid "adamantine"
+msgstr "адамантин"
+
+msgid "aluminum"
+msgstr "алюминий"
+
+msgid "bismuth bronze"
+msgstr "висмутовая бронза"
+
+msgid "zinc"
+msgstr "цинк"
+
+msgid "tin"
+msgstr "олово"
+
+msgid "brass"
+msgstr "латунь"
+
+msgid "bismuth"
+msgstr "висмут"
+
+msgid "steel"
+msgstr "сталь"
+
+msgid "fine pewter"
+msgstr "хороший пьютер"
+
+msgid "copper"
+msgstr "медь"
+
+msgid "lay pewter"
+msgstr "мирской пьютер"
+
+msgid "gold"
+msgstr "золото"
+
+msgid "bronze"
+msgstr "бронза"
+
+msgid "rose gold"
+msgstr "розовое золото"
+
+msgid "black bronze"
+msgstr "черная бронза"
+
+msgid "electrum"
+msgstr "электрум"
+
+msgid "nickel"
+msgstr "никель"
+
+msgid "trifle pewter"
+msgstr "простой пьютер"
+
+msgid "sterling silver"
+msgstr "стерлинг"
+
+msgid "lead"
+msgstr "свинец"
+
+msgid "platinum"
+msgstr "платина"
+
+msgid "nickel silver"
+msgstr "нейзильбер"
+
