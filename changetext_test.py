@@ -34,7 +34,6 @@ def ChangeText(s):
         last_ask = s
     
     decoded = s.decode("utf-16")
-    print('Decoded: \"%s\"' % decoded)
 
     try:
         result = ch_strings.GetTranslate(s)
@@ -46,6 +45,7 @@ def ChangeText(s):
         last_answer = result
         return result
     else:
+        print('\"%s\"' % decoded)
         last_answer = None
         return None
 
