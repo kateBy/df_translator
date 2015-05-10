@@ -3,7 +3,7 @@
 
 import re
 
-MAKE_OUTPUT = True
+MAKE_OUTPUT = False
 
 
 def load_trans_mo(fn):
@@ -38,14 +38,11 @@ def GetTranslate(_text):
     return None
 
 
-MENU_U_TITLE = re.compile(r"(Citizens|Pets/Livestock|Others|Dead/Missing)\s(\(\d+\))") #Citizens (7) | Pets/Livestock (16)
-SKILLS = re.compile(r"(Novice|Adequate|Proficient|Legendary)\s") #Novice Miner #Adequate Fish Cleaner
-STRAY_ANIMAL = re.compile(r"Stray\s((\w+\s)+)") #Stray Hen (Tame) | Stray Yak Cow (Tame)
-STRAY_ANIMAL_GENDER = re.compile(r"Stray\s(\w+?),\s(♀|♂)\s\((\S+?)\)") #"Stray Dog, ♀♂ (Tame)"
-#TWO_WORDS = re.compile(r"\w+?\s\w+?") 
-#THREE_WORDS = re.compile(r"\w+\s\w+\s\w+") 
-
-
+MAIN_MENU_TITLE = re.compile(r"Histories of (\w+) and (\w+)")
+MENU_U_TITLE = re.compile(r"(Citizens|Pets/Livestock|Others|Dead/Missing) (\(\d+\))") #Citizens (7) | Pets/Livestock (16)
+SKILLS = re.compile(r"(Novice|Adequate|Proficient|Legendary) ") #Novice Miner #Adequate Fish Cleaner
+STRAY_ANIMAL = re.compile(r"Stray ((\w+ )+)") #Stray Hen (Tame) | Stray Yak Cow (Tame)
+STRAY_ANIMAL_GENDER = re.compile(r"Stray (\w+?), (♀|♂) \((\S+?)\)") #"Stray Dog, ♀♂ (Tame)"
 
 
 def GET_TRANSLATE(original):
@@ -98,10 +95,19 @@ def PROC_STRAY_ANIMAL_GENDER(text):
     gender = TEST_GENDER(transl)
     return TEMPLATE[gender] % (transl, tmp[2])
 
+def PROC_MAIN_MENU_TITLE(text):
+    """Обрабатывает заголовок в главном меню: Histories of Greed and Industry"""
+    TEMPLATE = "Истории о%s и %s"
+    tmp = MAIN_MENU_TITLE.split(text)
+    transl1 = GET_TRANSLATE(tmp[1])
+    transl2 = GET_TRANSLATE(tmp[2])
+    return TEMPLATE % (transl1, transl2)
+
     
 
 #Словарь регулярных выражений, состоит из самого выражения и функции-обработчика дла нее
 expressions = {
+MAIN_MENU_TITLE:     PROC_MAIN_MENU_TITLE,
 MENU_U_TITLE:        PROC_MENU_U_TITLE,
 SKILLS:              PROC_SKILLS,
 STRAY_ANIMAL:        PROC_STRAY_ANIMAL,
