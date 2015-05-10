@@ -41,7 +41,11 @@ def Process(text):
 
 
 #Сюда вносятся новые строки для теста
-InstanceStrings = {}
+InstanceStrings = {
+
+
+
+}
 
 
 #Проверка на пустые строки, иначе будет вылет
@@ -58,6 +62,7 @@ assert(checked)
         
 if __name__ != "__main__":
     InstanceStrings.update(load_trans_mo("./libs/trans.mo"))
+    
 
 def dictToPo(some_dict):
     for item in some_dict:

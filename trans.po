@@ -55506,3 +55506,1710 @@ msgstr "Гигантские орлы"
 msgid "Giant cockatiels"
 msgstr "Гигантские кореллы"
 
+msgid "Giant brown recluse spiders"
+msgstr "Гигантские коричневые пауки-отшельники"
+
+msgid "Moths"
+msgstr "Мотыльки"
+
+msgid "Giant moon snails"
+msgstr "Гигантские лунные улитки"
+
+msgid "Geese"
+msgstr "Гуси"
+
+msgid "Rabbits"
+msgstr "Кролики"
+
+msgid "Damselflies"
+msgstr "Равнокрылые стрекозы"
+
+msgid "Blue peafowls"
+msgstr "Синие павлины"
+
+msgid "Horses"
+msgstr "Лошади"
+
+msgid "Flies"
+msgstr "Мухи"
+
+msgid "Mules"
+msgstr "Мулы"
+
+msgid "Gila monsters"
+msgstr "Ядозубы"
+
+msgid "Mosquitos"
+msgstr "Москиты"
+
+msgid "Moon snail men"
+msgstr "Лунные люди-улитки"
+
+msgid "Water buffalos"
+msgstr "Буйволы"
+
+msgid "Tick men"
+msgstr "Люди-клещи"
+
+msgid "Giant moths"
+msgstr "Гиганткие мотыльки"
+
+msgid "Leopard geckos"
+msgstr "Леопардовые гекконы"
+
+msgid "Centaurs"
+msgstr "Центавры"
+
+msgid "Giant grasshoppers"
+msgstr "Гигантские кузнечики"
+
+msgid "Louse men"
+msgstr "Люди-вши"
+
+msgid "Giant thrips"
+msgstr "Гигантские трипсы"
+
+msgid "Sheep"
+msgstr "Овцы"
+
+msgid "Giant mantises"
+msgstr "Гигантские богомолы"
+
+msgid "Termites"
+msgstr "Термиты"
+
+msgid "Giant desert tortoises"
+msgstr "Гигантские"
+
+msgid "Reindeer"
+msgstr "Северные олени"
+
+msgid "Giant damselflies"
+msgstr "Гигантские равнокрылые стрекозы"
+
+msgid "Ticks"
+msgstr "Клещи"
+
+msgid "Bark scorpions"
+msgstr "Древесные скорпионы"
+
+msgid "Guineafowls"
+msgstr "Цесарки"
+
+msgid "Ants"
+msgstr "Муравьи"
+
+msgid "Dogs"
+msgstr "Собаки"
+
+msgid "Turkeys"
+msgstr "Индейки"
+
+msgid "Lice"
+msgstr "Вши"
+
+msgid "Bark scorpion men"
+msgstr "Древесные люди-скорпионы"
+
+msgid "Slugs"
+msgstr "Слизни"
+
+msgid "Jumping spiders"
+msgstr "Пауки-скакуны"
+
+msgid "Leopard gecko men"
+msgstr "Леопардовые люди-гекконы"
+
+msgid "Brown recluse spider men"
+msgstr "Коричневые люди-пауки-отшельники"
+
+msgid "Damselfly men"
+msgstr "Равнокрылые люди-стрекозы"
+
+msgid "Large roaches"
+msgstr "Большие тараканы"
+
+msgid "Desert tortoises"
+msgstr "Пустынные черепахи"
+
+msgid "Ostrich men"
+msgstr "Люди-страусы"
+
+msgid "Giant ticks"
+msgstr "Гигантские клещи"
+
+msgid "Pigs"
+msgstr "Свиньи"
+
+msgid "Moth men"
+msgstr "Люди-мотыльки"
+
+msgid "Gila monster men"
+msgstr "Люди-ядозубы"
+
+msgid "Giant gila monsters"
+msgstr "Гигантские ядозубы"
+
+msgid "Monarch butterflies"
+msgstr "Бабочки-монархи"
+
+msgid "Giant bark scorpions"
+msgstr "Гигантские древесные скорпионы"
+
+msgid "Thrips"
+msgstr "Трипсы"
+
+msgid "Beetles"
+msgstr "Жуки"
+
+msgid "Cats"
+msgstr "Кошки"
+
+msgid "Goats"
+msgstr "Козы"
+
+msgid "Yaks"
+msgstr "Яки"
+
+msgid "Desert tortoise men"
+msgstr "Пустынные люди-черепахи"
+
+msgid "Mantis men"
+msgstr "Люди-богомолы"
+
+msgid "Slug men"
+msgstr "Люди-слизни"
+
+msgid "Mantises"
+msgstr "Богомолы"
+
+msgid "Grasshopper men"
+msgstr "Люди-кузнечики"
+
+msgid "Giant jumping spiders"
+msgstr "Гигантские пауки-скакуны"
+
+msgid "Giant lice"
+msgstr "Гигантские вши"
+
+msgid "Snail men"
+msgstr "Люди-улитки"
+
+msgid "Thrips men"
+msgstr "Люди-трипсы"
+
+msgid "Giant mosquitos"
+msgstr "Гигантские москиты"
+
+msgid "Cavies"
+msgstr "Морские свинки"
+
+msgid "Giant snails"
+msgstr "Гигантские улитки"
+
+msgid "Griffons"
+msgstr "Грифоны"
+
+msgid "Mosquito men"
+msgstr "Люди-москиты"
+
+msgid "Grasshoppers"
+msgstr "Кузнечики"
+
+msgid "Brown recluse spiders"
+msgstr "Коричневые пауки-отшельники"
+
+msgid "Chickens"
+msgstr "Куры"
+
+msgid "Giant leopard geckos"
+msgstr "Гигантские леопардовые гекконы"
+
+msgid "Donkeys"
+msgstr "Ослы"
+
+msgid "Cows"
+msgstr "Коровы"
+
+msgid "Giant ostriches"
+msgstr "Гигантские страусы"
+
+msgid "Moon snails"
+msgstr "Лунные улитки"
+
+msgid "Giant slugs"
+msgstr "Гигантские слизни"
+
+msgid "Ducks"
+msgstr "Утки"
+
+msgid "Llamas"
+msgstr "Ламы"
+
+msgid "Ostriches"
+msgstr "Страусы"
+
+msgid "Chimeras"
+msgstr "Химеры"
+
+msgid "Alpacas"
+msgstr "Альпаки"
+
+msgid "Snails"
+msgstr "Улитки"
+
+msgid "Jumping spider men"
+msgstr "Люди-пауки-скакуны"
+
+msgid "Black bears"
+msgstr "Черные медведи"
+
+msgid "Antmen"
+msgstr "Люди-муравьи"
+
+msgid "Coyote men"
+msgstr "Люди-койоты"
+
+msgid "Siamangs"
+msgstr "Сиаманги"
+
+msgid "Giraffes"
+msgstr "Жираф"
+
+msgid "Giant sloth bears"
+msgstr "Гигантские медведи-губачи"
+
+msgid "Pileated gibbons"
+msgstr "Хохластые гиббоны"
+
+msgid "Giant copperhead snakes"
+msgstr "Гигантские медноголовые щитомордники"
+
+msgid "Pond grabbers"
+msgstr "Омутники"
+
+msgid "Blue sharks"
+msgstr "Голубые акулы"
+
+msgid "Narwhals"
+msgstr "Нарвалы"
+
+msgid "Horseshoe crab men"
+msgstr "Люди-мечехвосты"
+
+msgid "Acorn flies"
+msgstr "Желудевые мухи"
+
+msgid "Nautilus men"
+msgstr "Люди-наутилусы"
+
+msgid "Giant moles"
+msgstr "Гигантские кроты"
+
+msgid "Coelacanths"
+msgstr "Целаканты"
+
+msgid "Halibut"
+msgstr "Палтусы"
+
+msgid "Kingsnake men"
+msgstr "Королевские люди-змеи"
+
+msgid "Swordfish"
+msgstr "Рыбы-меч"
+
+msgid "Mussels"
+msgstr "Мидии"
+
+msgid "Ocelot men"
+msgstr "Люди-оцелоты"
+
+msgid "Giant king cobras"
+msgstr "Гигантские королевские кобры"
+
+msgid "Blind cave ogres"
+msgstr "Слепые пещерные огры"
+
+msgid "Pixies"
+msgstr "Пикси"
+
+msgid "Chinchilla men"
+msgstr "Люди-шиншиллы"
+
+msgid "Lynx men"
+msgstr "Люди-рыси"
+
+msgid "Mud men"
+msgstr "Грязевики"
+
+msgid "Echidnas"
+msgstr "Ехидны"
+
+msgid "Manta rays"
+msgstr "Морские дьяволы"
+
+msgid "Jaguars"
+msgstr "Ягуары"
+
+msgid "Coatis"
+msgstr "Коати"
+
+msgid "Orca men"
+msgstr "Люди-касатки"
+
+msgid "Giant cave swallows"
+msgstr "Гигантские пещерные ласточки"
+
+msgid "Giant crabs"
+msgstr "Гигантские крабы"
+
+msgid "Badgers"
+msgstr "Барсуки"
+
+msgid "Hagfish"
+msgstr "Миксины"
+
+msgid "Leopard seal men"
+msgstr "Морские люди-леопарды"
+
+msgid "Guppies"
+msgstr "Гуппи"
+
+msgid "Capuchin men"
+msgstr "Люди-капуцины"
+
+msgid "Anchovies"
+msgstr "Анчоусы"
+
+msgid "Demon rats"
+msgstr "Демонические крысы"
+
+msgid "Marlins"
+msgstr "Марлины"
+
+msgid "Stingrays"
+msgstr "Скаты-хвостоколы"
+
+msgid "Dralthas"
+msgstr "Дралфы"
+
+msgid "Giant gray langurs"
+msgstr "Гигантские серые лангуры"
+
+msgid "Giant bats"
+msgstr "Гигантские летучие мыши"
+
+msgid "Bilous"
+msgstr "Черношапочные гиббоны"
+
+msgid "Maneras"
+msgstr "Менеры"
+
+msgid "Giant axolotls"
+msgstr "Гигантские аксолотли"
+
+msgid "Crundles"
+msgstr "Крандлы"
+
+msgid "Serpent men"
+msgstr "Люди-змеи"
+
+msgid "Dingoes"
+msgstr "Собаки динго"
+
+msgid "Gigantic squids"
+msgstr "Гигантские кальмары"
+
+msgid "Aye-aye men"
+msgstr "Люди ай-аи"
+
+msgid "Dingo men"
+msgstr "Люди динго"
+
+msgid "Platypus men"
+msgstr "Люди-утконосы"
+
+msgid "Hamsters"
+msgstr "Хомяки"
+
+msgid "Kingsnakes"
+msgstr "Королевские змеи"
+
+msgid "Giant pond turtles"
+msgstr "Гигантские черепахи"
+
+msgid "Flying squirrel men"
+msgstr "Люди-белки-летяги"
+
+msgid "Black mamba men"
+msgstr "Черные люди-мамбы"
+
+msgid "Giant leopards"
+msgstr "Гигантские леопарды"
+
+msgid "Olm men"
+msgstr "Люди-протеи"
+
+msgid "Pandas"
+msgstr "Панды"
+
+msgid "Gray langurs"
+msgstr "Серы лангуры"
+
+msgid "Giant skunks"
+msgstr "Гигантские скунсы"
+
+msgid "Bugbats"
+msgstr "Крылатые жукомыши"
+
+msgid "Black-crested gibbons"
+msgstr "Чернохохластые гиббоны"
+
+msgid "Vultures"
+msgstr "Грифы"
+
+msgid "Oysters"
+msgstr "Устрицы"
+
+msgid "Black-handed gibbons"
+msgstr "Чернорукие гиббоны"
+
+msgid "Giant green tree frogs"
+msgstr "Гигантские зеленые древесные лягушки"
+
+msgid "Honey bees"
+msgstr "Медоносные пчёлы"
+
+msgid "Giant cheetahs"
+msgstr "Гигантские гепарды"
+
+msgid "Magma men"
+msgstr "Магмовые люди"
+
+msgid "Sea monsters"
+msgstr "Морские чудовища"
+
+msgid "Giant tapirs"
+msgstr "Гигантские тапиры"
+
+msgid "Otter men"
+msgstr "Морские люди-выдры"
+
+msgid "Giant koalas"
+msgstr "Гигантские коалы"
+
+msgid "Anaconda men"
+msgstr "Люди-анаконды"
+
+msgid "Cougars"
+msgstr "Пумы"
+
+msgid "Crab men"
+msgstr "Краболюди"
+
+msgid "Harpies"
+msgstr "Гарпии"
+
+msgid "Giant jackals"
+msgstr "Гигантские шакалы"
+
+msgid "Angelsharks"
+msgstr "Акулы-ангелы"
+
+msgid "Seahorses"
+msgstr "Морские коньки"
+
+msgid "Gray squirrels"
+msgstr "Серые белки"
+
+msgid "Yellow bullheads"
+msgstr "Желтые сомики"
+
+msgid "Creeping eyes"
+msgstr "Ползучие глаза"
+
+msgid "Sponge men"
+msgstr "Люди-губки"
+
+msgid "Giant tortoise men"
+msgstr "Гигантские люди-черепахи"
+
+msgid "Capybaras"
+msgstr "Капибары"
+
+msgid "Bat men"
+msgstr "Бэтманы"
+
+msgid "Giant opossums"
+msgstr "Гигантские опоссумы"
+
+msgid "Orcas"
+msgstr "Косатки"
+
+msgid "White-spotted puffers"
+msgstr "Колючие аротроны"
+
+msgid "Cave blobs"
+msgstr "Пещерные волдырники"
+
+msgid "Monitor lizards"
+msgstr "Вараны"
+
+msgid "Common skates"
+msgstr "Гладкие скаты"
+
+msgid "Fluffy wamblers"
+msgstr "Пушистые вамблеры"
+
+msgid "Honey badgers"
+msgstr "Барсуки-медоеды"
+
+msgid "Cave fish"
+msgstr "Пещерная рыба"
+
+msgid "Cave spiders"
+msgstr "Пещерные пауки"
+
+msgid "Frill sharks"
+msgstr "Плащеносные акулы"
+
+msgid "Muskoxen"
+msgstr "Овцебыки"
+
+msgid "Hippos"
+msgstr "Гиппопотамы"
+
+msgid "Giant lion tamarins"
+msgstr "Гигантские львиные тамарины"
+
+msgid "Sasquatches"
+msgstr "Сасквочи"
+
+msgid "Giant rats"
+msgstr "Гигантские крысы"
+
+msgid "Giant toads"
+msgstr "Гигантские жабы"
+
+msgid "Plump helmet men"
+msgstr "Гриболюди"
+
+msgid "Sea otters"
+msgstr "Морские выдры"
+
+msgid "Impala men"
+msgstr "Люди-импалы"
+
+msgid "Nautiluses"
+msgstr "Наутилусы"
+
+msgid "Squid men"
+msgstr "Люди-кальмары"
+
+msgid "Moghoppers"
+msgstr "Кочкопрыги"
+
+msgid "Giant wild boars"
+msgstr "Гигантские дикие кабаны"
+
+msgid "Bat rays"
+msgstr "Орляки"
+
+msgid "Fairies"
+msgstr "Феи"
+
+msgid "Giant earthworms"
+msgstr "Гигантские земляные черви"
+
+msgid "Giant porcupines"
+msgstr "Гигантские дикобразы"
+
+msgid "Nurse sharks"
+msgstr "Акулы-няньки"
+
+msgid "Sperm whale men"
+msgstr "Люди-кашалоты"
+
+msgid "Ogres"
+msgstr "Огры"
+
+msgid "Giant monitor lizards"
+msgstr "Гигантские вараны"
+
+msgid "Clown loaches"
+msgstr "Боции-клоуны"
+
+msgid "Black mambas"
+msgstr "Черные мамбы"
+
+msgid "Banded knifefish"
+msgstr "Пятнистые рыбы-ножи"
+
+msgid "Longnose gars"
+msgstr "Длиннокрылые панцырьники"
+
+msgid "Sea serpents"
+msgstr "Морские змеи"
+
+msgid "Elves"
+msgstr "Эльфы"
+
+msgid "Hungry heads"
+msgstr "Голодные головы"
+
+msgid "Deer"
+msgstr "Олени"
+
+msgid "Chipmunks"
+msgstr "Бурундуки"
+
+msgid "Cave fish men"
+msgstr "Пещерные люди-рыбы"
+
+msgid "Giant spider monkeys"
+msgstr "Гигантские паукообразные обезьяны"
+
+msgid "Chinchillas"
+msgstr "Шиншиллы"
+
+msgid "Great white sharks"
+msgstr "Большие белые акулы"
+
+msgid "Axolotls"
+msgstr "Аксолотли"
+
+msgid "Bull sharks"
+msgstr "Акулы-быки"
+
+msgid "Giant armadillos"
+msgstr "Гигантские броненосцы"
+
+msgid "Python men"
+msgstr "Люди-питоны"
+
+msgid "Giants"
+msgstr "Гаганты"
+
+msgid "Great barracudas"
+msgstr "Большие барракуды"
+
+msgid "Giant otters"
+msgstr "Гигантские выдры"
+
+msgid "Merpeople"
+msgstr "Русалки"
+
+msgid "Ice wolves"
+msgstr "Белые волки"
+
+msgid "Giant aye-ayes"
+msgstr "Гигантские ай-аи"
+
+msgid "Giant capybaras"
+msgstr "Гигантские капибары"
+
+msgid "Giant cuttlefish"
+msgstr "Гигантские каракатицы"
+
+msgid "Stoat men"
+msgstr "Люди-горностаи"
+
+msgid "Giant capuchins"
+msgstr "Гигантские капуцины"
+
+msgid "Cyclopes"
+msgstr "Циклопы"
+
+msgid "Anacondas"
+msgstr "Анаконды"
+
+msgid "Groundhogs"
+msgstr "Сурки"
+
+msgid "Gigantic tortoises"
+msgstr "Исполинские черепахи"
+
+msgid "Mountain gnomes"
+msgstr "Горные гномы"
+
+msgid "Rainbow trout"
+msgstr "Радужные форели"
+
+msgid "Giant nautiluses"
+msgstr "Гигантские наутилусы"
+
+msgid "Goblins"
+msgstr "Гоблины"
+
+msgid "Weasel men"
+msgstr "Люди-ласки"
+
+msgid "Tapir men"
+msgstr "Люди-тапиры"
+
+msgid "Satyrs"
+msgstr "Сатиры"
+
+msgid "River otters"
+msgstr "Речные выдры"
+
+msgid "Warthogs"
+msgstr "Барадавочники"
+
+msgid "Ibexes"
+msgstr "Горные козлы"
+
+msgid "Red pandas"
+msgstr "Красные панды"
+
+msgid "Giant tigers"
+msgstr "Гигантские тигры"
+
+msgid "Giant kangaroos"
+msgstr "Гигантские кенгуру"
+
+msgid "Armadillos"
+msgstr "Броненосцы"
+
+msgid "Cod"
+msgstr "Трески"
+
+msgid "Giant octopuses"
+msgstr "Гигантские осьминоги"
+
+msgid "Giant ocelots"
+msgstr "Гигантские оцелоты"
+
+msgid "Adders"
+msgstr "Гадюки"
+
+msgid "Giant hyenas"
+msgstr "Гигантские гиены"
+
+msgid "Lungfish"
+msgstr "Рогозубы"
+
+msgid "Giant badgers"
+msgstr "Гигантские барсуки"
+
+msgid "Porcupine men"
+msgstr "Люди-дикобразы"
+
+msgid "Gigantic pandas"
+msgstr "Гигантские панды"
+
+msgid "Raccoons"
+msgstr "Еноты"
+
+msgid "Pangolins"
+msgstr "Панголины"
+
+msgid "Elephants"
+msgstr "Слоны"
+
+msgid "Buzzards"
+msgstr "Канюки"
+
+msgid "Narwhal men"
+msgstr "Люди-нарвалы"
+
+msgid "Naked mole dogs"
+msgstr "Голые кротопсы"
+
+msgid "Alligator snapping turtles"
+msgstr "Грифовые черепахи"
+
+msgid "Stoats"
+msgstr "Горностаи"
+
+msgid "Unicorns"
+msgstr "Единороги"
+
+msgid "Brown bullheads"
+msgstr "Коричневые сомки"
+
+msgid "Giant hares"
+msgstr "Гигантские зайцы"
+
+msgid "Giant wolverines"
+msgstr "Гигантские россомахи"
+
+msgid "Wolverines"
+msgstr "Россомахи"
+
+msgid "Minotaurs"
+msgstr "Минотавры"
+
+msgid "Sea lampreys"
+msgstr "Морские миноги"
+
+msgid "Large rats"
+msgstr "Большие крысы"
+
+msgid "Bronze colossuses"
+msgstr "Бронзовые колоссы"
+
+msgid "Coati men"
+msgstr "Люди-коати"
+
+msgid "Char"
+msgstr "Гольцы"
+
+msgid "Flowing Messengers"
+msgstr "Летающие посланники"
+
+msgid "Spider monkey men"
+msgstr "Паукообразные люди-обезьяны"
+
+msgid "Amethyst men"
+msgstr "Аметистовники"
+
+msgid "Cuttlefish"
+msgstr "Каракатицы"
+
+msgid "Giant snapping turtles"
+msgstr "Гигантские кусающиеся черепахи"
+
+msgid "Basking sharks"
+msgstr "Гигантские акулы"
+
+msgid "King cobra men"
+msgstr "Королевские люди-змеи"
+
+msgid "White-browed gibbons"
+msgstr "Белобровые гиббоны"
+
+msgid "Spiny dogfish"
+msgstr "Колючие акулы"
+
+msgid "Nightwings"
+msgstr "Ночекрылы"
+
+msgid "Rattlesnakes"
+msgstr "Гремучие змеи"
+
+msgid "Blizzard men"
+msgstr "Барнники"
+
+msgid "Giant weasels"
+msgstr "Гигантские ласки"
+
+msgid "Giant anacondas"
+msgstr "Гагантские анаконды"
+
+msgid "Tigers"
+msgstr "Тигры"
+
+msgid "Whale sharks"
+msgstr "Китовые акулы"
+
+msgid "Giant sperm whales"
+msgstr "Гигантские кашалоты"
+
+msgid "Giant red pandas"
+msgstr "Гигантские красные панды"
+
+msgid "Walruses"
+msgstr "Моржы"
+
+msgid "Thornback rays"
+msgstr "Морские лисицы"
+
+msgid "Grimelings"
+msgstr "Пачкальщики"
+
+msgid "Hyena men"
+msgstr "Люди-гиены"
+
+msgid "Panda men"
+msgstr "Люди-панды"
+
+msgid "Giant horseshoe crabs"
+msgstr "Гигантские мечехвосты"
+
+msgid "Capybara men"
+msgstr "Люди-капибары"
+
+msgid "Lion tamarin men"
+msgstr "Львиные люди-тамарины"
+
+msgid "Rocs"
+msgstr "Птицы рух"
+
+msgid "Impalas"
+msgstr "Импалы"
+
+msgid "Sponges"
+msgstr "Губки"
+
+msgid "Skunks"
+msgstr "Скунсы"
+
+msgid "Giant tortoises"
+msgstr "Гигантские черепахи"
+
+msgid "Badger men"
+msgstr "Люди-барсуки"
+
+msgid "Reptile men"
+msgstr "Рептилоиды"
+
+msgid "Giant mongooses"
+msgstr "Гигантские мангусты"
+
+msgid "Minks"
+msgstr "Норки"
+
+msgid "Harp seals"
+msgstr "Тюлени"
+
+msgid "Silvery gibbons"
+msgstr "Серебристые гиббоны"
+
+msgid "Spotted wobbegongs"
+msgstr "Акулы воббегонг"
+
+msgid "Giant echidnas"
+msgstr "Гигантские ехидны"
+
+msgid "Mandrills"
+msgstr "Мандриды"
+
+msgid "Weasels"
+msgstr "Ласки"
+
+msgid "Giant lions"
+msgstr "Гигантские львы"
+
+msgid "Green tree frog men"
+msgstr "Зеленые люди-лягушки"
+
+msgid "Giant coatis"
+msgstr "Гигантские коати"
+
+msgid "Elk birds"
+msgstr "Птицы-вапити"
+
+msgid "Giant harp seals"
+msgstr "Гигантские тюлени"
+
+msgid "Giant moose"
+msgstr "Гигантские лоси"
+
+msgid "Carp"
+msgstr "Карпы"
+
+msgid "Coyotes"
+msgstr "Койоты"
+
+msgid "Bushmaster men"
+msgstr "Люди-бушмастеры"
+
+msgid "Cuttlefish men"
+msgstr "Люди-каракатицы"
+
+msgid "Magma crabs"
+msgstr "Магмакрабы"
+
+msgid "Tiger men"
+msgstr "Люди-тигры"
+
+msgid "Shortfin mako sharks"
+msgstr "Короткоплавниковые акулы мако"
+
+msgid "Flying squirrels"
+msgstr "Белки-летяги"
+
+msgid "Wolverine men"
+msgstr "Люди-россомахи"
+
+msgid "Adder men"
+msgstr "Люди-гадюки"
+
+msgid "Ibex men"
+msgstr "Горные козолюды"
+
+msgid "White-handed gibbons"
+msgstr "Белорукие гиббоны"
+
+msgid "Longfin mako sharks"
+msgstr "Длинноплавниковые акулы мако"
+
+msgid "Sloths"
+msgstr "Ленивцы"
+
+msgid "Gabbro men"
+msgstr "Люди-габбо"
+
+msgid "Dark gnomes"
+msgstr "Тёмные гномы"
+
+msgid "Giant jaguars"
+msgstr "Гигантские ягуары"
+
+msgid "Red squirrels"
+msgstr "Рыжие белки"
+
+msgid "Spider monkeys"
+msgstr "Паукообразные обезьяны"
+
+msgid "Giant olms"
+msgstr "Гигантские протеи"
+
+msgid "Bobcats"
+msgstr "Рыжие рыси"
+
+msgid "Sperm whales"
+msgstr "Кашалоты"
+
+msgid "One-humped camels"
+msgstr "Одногорбые верблюды"
+
+msgid "Bumblebees"
+msgstr "Шмели"
+
+msgid "Drunians"
+msgstr "Друнианцы"
+
+msgid "Beavers"
+msgstr "Бобры"
+
+msgid "Rattlesnake men"
+msgstr "Гремучие люди-змеи"
+
+msgid "Floating guts"
+msgstr "Плавающие кишки"
+
+msgid "Green tree frogs"
+msgstr "Зеленые древесные лягушки"
+
+msgid "Giant coyotes"
+msgstr "Гигантские койоты"
+
+msgid "Two-humped camels"
+msgstr "Двугорбые верблюды"
+
+msgid "Giant rattlesnakes"
+msgstr "Гигантские гремучие змеи"
+
+msgid "Fox squirrels"
+msgstr "Черные белки"
+
+msgid "Flesh balls"
+msgstr "Шары плоти"
+
+msgid "Giant hedgehogs"
+msgstr "Гигантские ежи"
+
+msgid "Moose men"
+msgstr "Люди-лоси"
+
+msgid "Lynx"
+msgstr "Рыси"
+
+msgid "Cave floaters"
+msgstr "Пещерные плавуны"
+
+msgid "Tiger sharks"
+msgstr "Тигровые акулы"
+
+msgid "Giant hamsters"
+msgstr "Гигантские хомяки"
+
+msgid "Leopards"
+msgstr "Леопарды"
+
+msgid "Giant groupers"
+msgstr "Гигантские груперы"
+
+msgid "Squids"
+msgstr "Кальмары"
+
+msgid "Giant pangolins"
+msgstr "Гигантские панголины"
+
+msgid "Lizards"
+msgstr "Ящерицы"
+
+msgid "Giant dingoes"
+msgstr "Гагнтские собаки динго"
+
+msgid "Kangaroos"
+msgstr "Кенгуру"
+
+msgid "Jackal men"
+msgstr "Люди-шакалы"
+
+msgid "Rhinoceroses"
+msgstr "Носороги"
+
+msgid "Sea nettle jellyfish"
+msgstr "Морские крапивы"
+
+msgid "Alligators"
+msgstr "Аллигаторы"
+
+msgid "Rhesus macaques"
+msgstr "Макаки-резусы"
+
+msgid "Giant pythons"
+msgstr "Гигантские питоны"
+
+msgid "Opossums"
+msgstr "Опоссумы"
+
+msgid "Saltwater crocodiles"
+msgstr "Морские крокодилы"
+
+msgid "Giant black mambas"
+msgstr "Гигантские черные мамбы"
+
+msgid "Giant leeches"
+msgstr "Гигантские пиявки"
+
+msgid "Mountain goats"
+msgstr "Горные козлы"
+
+msgid "Hydras"
+msgstr "Гидрыы"
+
+msgid "Rats"
+msgstr "Крысы"
+
+msgid "Shads"
+msgstr "Алозы"
+
+msgid "Cave lobsters"
+msgstr "Пещерные лобстеры"
+
+msgid "Dragonflies"
+msgstr "Стрекозы"
+
+msgid "Stranglers"
+msgstr "Душители"
+
+msgid "Hyenas"
+msgstr "Гиены"
+
+msgid "Leeches"
+msgstr "Пиявки"
+
+msgid "Perch"
+msgstr "Окуни"
+
+msgid "Bobcat men"
+msgstr "Рыжие люди-рыси"
+
+msgid "Herrings"
+msgstr "Сельди"
+
+msgid "Porcupines"
+msgstr "Дикобразы"
+
+msgid "Leech men"
+msgstr "Люди-пиявки"
+
+msgid "Knuckle worms"
+msgstr "Суставчатые черви"
+
+msgid "Hedgehog men"
+msgstr "Люди-ежи"
+
+msgid "Bats"
+msgstr "Летучие мыши"
+
+msgid "Harp seal men"
+msgstr "Люди-тюлени"
+
+msgid "Mackerel"
+msgstr "Макрели"
+
+msgid "Giant beavers"
+msgstr "Гигантские бобры"
+
+msgid "Cheetahs"
+msgstr "Гепарды"
+
+msgid "Helmet snakes"
+msgstr "Шлемовые змеи"
+
+msgid "Hedgehogs"
+msgstr "Ежи"
+
+msgid "Blood gnats"
+msgstr "Комары-кровососы"
+
+msgid "Lions"
+msgstr "Львы"
+
+msgid "Gorlaks"
+msgstr "Горлаки"
+
+msgid "Cave dragons"
+msgstr "Пещерные драконы"
+
+msgid "Foul blendecs"
+msgstr "Хазры"
+
+msgid "Blind cave bears"
+msgstr "Слепые пещерные медведи"
+
+msgid "Crabs"
+msgstr "Крабы"
+
+msgid "Reachers"
+msgstr "Утопщики"
+
+msgid "Giant minks"
+msgstr "Гигантские норки"
+
+msgid "Copperhead snakes"
+msgstr "Медноголовые щитомордники"
+
+msgid "Pond turtle men"
+msgstr "Прудовые люди-черепахи"
+
+msgid "Rodent men"
+msgstr "Люди-грызуны"
+
+msgid "Wolves"
+msgstr "Волки"
+
+msgid "Giant sponges"
+msgstr "Гигантские губки"
+
+msgid "Grizzly bears"
+msgstr "Медведи гризли"
+
+msgid "Giant ibexes"
+msgstr "Гигантские гоные козлы"
+
+msgid "Two-legged rhino lizards"
+msgstr "Двулапые носорогоящеры"
+
+msgid "Wild boars"
+msgstr "Дикие кабаны"
+
+msgid "Giant cave spiders"
+msgstr "Гигантские пещерные пауки"
+
+msgid "Bluefin tuna"
+msgstr "Голубые тунцы"
+
+msgid "Common snapping turtles"
+msgstr "Кусающиеся черепахи"
+
+msgid "Sloth men"
+msgstr "Люди-ленивцы"
+
+msgid "Octopuses"
+msgstr "Осьминоги"
+
+msgid "Bushmasters"
+msgstr "Бушмастеры"
+
+msgid "Giant platypuses"
+msgstr "Гигантские утконосы"
+
+msgid "Glasseye"
+msgstr "Каталуфы"
+
+msgid "Brook lampreys"
+msgstr "Рученйные миноги"
+
+msgid "Beaver men"
+msgstr "Люди-бобры"
+
+msgid "Mongoose men"
+msgstr "Люди-мангусты"
+
+msgid "Voracious cave crawlers"
+msgstr "Прожорливые пещерные гусеницы"
+
+msgid "Beak dogs"
+msgstr "Кривоглавые собаки"
+
+msgid "Flounders"
+msgstr "Камбалы"
+
+msgid "Red panda men"
+msgstr "Красные люди-панды"
+
+msgid "Sailfin mollies"
+msgstr "Пецилии"
+
+msgid "Giant chinchillas"
+msgstr "Гигантские шиншиллы"
+
+msgid "Echidna men"
+msgstr "Люди-ехидны"
+
+msgid "Milkfish"
+msgstr "Ханосы"
+
+msgid "Sole"
+msgstr "Морские языки"
+
+msgid "Giant leopard seals"
+msgstr "Гигантские морские леопарды"
+
+msgid "Cave swallows"
+msgstr "Пещерные ласточки"
+
+msgid "Dwarves"
+msgstr "Дварфы"
+
+msgid "Blacktip reef sharks"
+msgstr "Чернопёрые рифовые акулы"
+
+msgid "Kangaroo men"
+msgstr "Люди-кенгуру"
+
+msgid "Humans"
+msgstr "Люди"
+
+msgid "Hammerhead sharks"
+msgstr "Акулы-молоты"
+
+msgid "Elephant seals"
+msgstr "Морские слоны"
+
+msgid "Purring maggots"
+msgstr "Урчащие личинки"
+
+msgid "Leopard seals"
+msgstr "Морские леопарды"
+
+msgid "Gorillas"
+msgstr "Гориллы"
+
+msgid "Koala men"
+msgstr "Люди-коалы"
+
+msgid "Aye-ayes"
+msgstr "Ай-аи"
+
+msgid "Polar bears"
+msgstr "Полярные медведи"
+
+msgid "Cap hoppers"
+msgstr "Грибные прыгуны"
+
+msgid "Ocelots"
+msgstr "Оцелоты"
+
+msgid "Mink men"
+msgstr "Люди-норки"
+
+msgid "Horseshoe crabs"
+msgstr "Мечехвосты"
+
+msgid "Amphibian men"
+msgstr "Люди-амфибии"
+
+msgid "Gazelles"
+msgstr "Газели"
+
+msgid "Moose"
+msgstr "Лоси"
+
+msgid "Capuchins"
+msgstr "Капуцины"
+
+msgid "Olms"
+msgstr "Протеи"
+
+msgid "Giant elephant seals"
+msgstr "Гигантские морские слоны"
+
+msgid "Giant bushmasters"
+msgstr "Гигантские бушмастеры"
+
+msgid "Hares"
+msgstr "Зайцы"
+
+msgid "Troglodytes"
+msgstr "Троглодиты"
+
+msgid "Creepy crawlers"
+msgstr "Жудкие ползуны"
+
+msgid "Tigerfish"
+msgstr "Тигровые рыбы"
+
+msgid "Fire men"
+msgstr "Огненые люди"
+
+msgid "Conger eels"
+msgstr "Угри-конгеры"
+
+msgid "Bluefish"
+msgstr "Луфари"
+
+msgid "Aardvark men"
+msgstr "Люди-трубкозубы"
+
+msgid "Steelhead trout"
+msgstr "Микижи"
+
+msgid "Orangutans"
+msgstr "Орангутаны"
+
+msgid "Spotted ratfish"
+msgstr "Гидролаги"
+
+msgid "Wild boar men"
+msgstr "Дикие люди-кабаны"
+
+msgid "Sloth bears"
+msgstr "Медведи-губачи"
+
+msgid "Giant kingsnakes"
+msgstr "Гигантские королевские змеи"
+
+msgid "Wombats"
+msgstr "Вомбаты"
+
+msgid "Aardvarks"
+msgstr "Трубкозубы"
+
+msgid "Skunk men"
+msgstr "Люди-скунсы"
+
+msgid "Iron men"
+msgstr "Железные люди"
+
+msgid "Giant impalas"
+msgstr "Гагантские импалы"
+
+msgid "Giant stoats"
+msgstr "Гигантские горностаи"
+
+msgid "Bonobos"
+msgstr "Бонобо"
+
+msgid "Hare men"
+msgstr "Люди-зайцы"
+
+msgid "Yetis"
+msgstr "Йети"
+
+msgid "Foxes"
+msgstr "Лисы"
+
+msgid "Hoary marmots"
+msgstr "Седые сурки"
+
+msgid "Opah"
+msgstr "Опахи"
+
+msgid "Giant lynx"
+msgstr "Гигантские рыси"
+
+msgid "Pond turtles"
+msgstr "Прудовые черепахи"
+
+msgid "Platypuses"
+msgstr "Утконосы"
+
+msgid "Giant desert scorpions"
+msgstr "Гигантские пустынные скорпионы"
+
+msgid "Giant flying squirrels"
+msgstr "Гигантские белки-летяги"
+
+msgid "Salmon"
+msgstr "Нерки"
+
+msgid "Sturgeons"
+msgstr "Осетры"
+
+msgid "Cave crocodiles"
+msgstr "Пещерные крокодилы"
+
+msgid "Lion tamarins"
+msgstr "Львиные тамарины"
+
+msgid "Fireflies"
+msgstr "Светлячки"
+
+msgid "Copperhead snake men"
+msgstr "Медноголовые люди-щитомордники"
+
+msgid "Monitor lizard men"
+msgstr "Люди-вараны"
+
+msgid "Jackals"
+msgstr "Шакалы"
+
+msgid "Fire imps"
+msgstr "Огненые бесы"
+
+msgid "Snapping turtle men"
+msgstr "Кусающиеся люди-черепахи"
+
+msgid "Giant narwhals"
+msgstr "Гигантские нарвалы"
+
+msgid "Koalas"
+msgstr "Коалы"
+
+msgid "Gray gibbons"
+msgstr "Серые гиббоны"
+
+msgid "Elephant seal men"
+msgstr "Морские люди-слоны"
+
+msgid "Gremlins"
+msgstr "Гремблины"
+
+msgid "Black bullheads"
+msgstr "Черные сомики"
+
+msgid "Chimpanzees"
+msgstr "Шимпанзе"
+
+msgid "Giant adders"
+msgstr "Гигантские гадюки"
+
+msgid "Jabberers"
+msgstr "Стрекотуны"
+
+msgid "Hake"
+msgstr "Хеки"
+
+msgid "Molemarians"
+msgstr "Кротавны"
+
+msgid "Octopus men"
+msgstr "Люди-асьминоги"
+
+msgid "Giant wombats"
+msgstr "Гигантские вомбаты"
+
+msgid "King cobras"
+msgstr "Королевские кобры"
+
+msgid "Tapirs"
+msgstr "Тапиры"
+
+msgid "Wombat men"
+msgstr "Люди-вомбаты"
+
+msgid "Clownfish"
+msgstr "Рыбы-клоуны"
+
+msgid "Dragons"
+msgstr "Драконы"
+
+msgid "Fire snakes"
+msgstr "Огненые змеи"
+
+msgid "Axolotl men"
+msgstr "Люди-акслолотли"
+
+msgid "Green devourers"
+msgstr "Зеленые пожиратели"
+
+msgid "Whitetip reef sharks"
+msgstr "Белопёрые рифовые акулы"
+
+msgid "Trolls"
+msgstr "Тролли"
+
+msgid "Hamster men"
+msgstr "Люди-хомяки"
+
+msgid "Kobolds"
+msgstr "Кобольды"
+
+msgid "Pangolin men"
+msgstr "Люди-панголины"
+
+msgid "Blood men"
+msgstr "Люди-кровавики"
+
+msgid "Armadillo men"
+msgstr "Люди-броненосцы"
+
+msgid "Cave swallow men"
+msgstr "Пещерные люди-ласточки"
+
+msgid "Elk"
+msgstr "Вапити"
+
+msgid "Giant bobcats"
+msgstr "Гигантские рыжие рыси"
+
+msgid "Mongooses"
+msgstr "Мангусты"
+
+msgid "Giant aardvarks"
+msgstr "Гигантские трубкозубы"
+
+msgid "Giant orcas"
+msgstr "Гигантские касатки"
+
+msgid "Gray langur men"
+msgstr "Серые люди-лангуры"
+
+msgid "Pythons"
+msgstr "Питоны"
+
+msgid "Phantom spiders"
+msgstr "Фантомные пауки"
+
+msgid "Sloth bear men"
+msgstr "Люди-медведи-губачи"
+
+msgid "Rutherers"
+msgstr "Хвостачи"
+
+msgid "Ocean sunfish"
+msgstr "Луна-рыбы"
+
+msgid "Opossum men"
+msgstr "Люди-опоссумы"
+
+msgid "Ettins"
+msgstr "Эттины"
+
+msgid "Giant sloths"
+msgstr "Гигантские ленивцы"
+
+msgid "floodgates"
+msgstr "шлюзы"
+
+msgid "thrones"
+msgstr "троны"
+
+msgid "slabs"
+msgstr "мемориалы"
+
+msgid "doors"
+msgstr "двери"
+
+msgid "beds"
+msgstr "кровати"
+
+msgid "weapon racks"
+msgstr "оружейные стойки"
+
+msgid "cabinets"
+msgstr "шкафы"
+
+msgid "anvils"
+msgstr "наковальни"
+
+msgid "coffins"
+msgstr "гробы"
+
+msgid "tables"
+msgstr "столы"
+
+msgid "statues"
+msgstr "статуи"
+
+msgid "armor stands"
+msgstr "доспешные стойки"
+
