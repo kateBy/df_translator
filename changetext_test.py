@@ -46,7 +46,9 @@ def ChangeText(s):
         return result
     else:
         if ch_strings.MAKE_OUTPUT:
-            print('\"%s\"' % decoded)
+            if len(decoded) > 1:
+                if not (decoded in ch_strings.DO_NOT_SHOW):
+                    print('\"%s\"' % decoded)
         last_answer = None
         return None
 

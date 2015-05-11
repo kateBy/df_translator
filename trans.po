@@ -58023,3 +58023,228 @@ msgstr "Споры толстошлемника"
 msgid "Plump helmets"
 msgstr "Толстошлемники"
 
+msgid "right lower arm"
+msgstr "правое предплечье"
+
+msgid "lower body"
+msgstr "нижняя часть туловища"
+
+msgid "upper body"
+msgstr "верхняя часть туловища"
+
+msgid "Right hand"
+msgstr "Правая ладонь"
+
+msgid "right foot"
+msgstr "правая ступня"
+
+msgid "right hand"
+msgstr "правая рука"
+
+msgid "upper front teeth"
+msgstr "верхние передние зубы"
+
+msgid "left upper leg"
+msgstr "левое бедро"
+
+msgid "left hand"
+msgstr "левая рука"
+
+msgid "left eyelid"
+msgstr "левое веко"
+
+msgid "upper right back teeth"
+msgstr "верхние зубы справа"
+
+msgid "right eyelid"
+msgstr "правое веко"
+
+msgid "upper left back teeth"
+msgstr "верхние зубы слева"
+
+msgid "left ear"
+msgstr "левое ухо"
+
+msgid "right upper leg"
+msgstr "правое бедро"
+
+msgid "lower left back teeth"
+msgstr "нижние зубы слева"
+
+msgid "lower right back teeth"
+msgstr "нижние зубы справа"
+
+msgid "left cheek"
+msgstr "левая щека"
+
+msgid ", "
+msgstr ", "
+
+msgid "Right foot"
+msgstr "Правая ступня"
+
+msgid "left lower arm"
+msgstr "левое предплечье"
+
+msgid "Upper body"
+msgstr "Верхняя часть туловища"
+
+msgid "head"
+msgstr "голова"
+
+msgid "Lower body"
+msgstr "Нижняя часть туловища"
+
+msgid "Left foot"
+msgstr "Левая ступня"
+
+msgid "Expedition Leader"
+msgstr "Лидер Экспедиции"
+
+msgid "left upper arm"
+msgstr "левое плечо"
+
+msgid "nose"
+msgstr "нос"
+
+msgid "mouth"
+msgstr "рот"
+
+msgid "left eye"
+msgstr "левый глаз"
+
+msgid "throat"
+msgstr "гортань"
+
+msgid "neck"
+msgstr "шея"
+
+msgid "left lower leg"
+msgstr "левая голень"
+
+msgid "Left hand"
+msgstr "Левая ладонь"
+
+msgid "upper lip"
+msgstr "верхняя губа"
+
+msgid "left foot"
+msgstr "левая ступня"
+
+msgid "lower lip"
+msgstr "нижняя губа"
+
+msgid "right lower leg"
+msgstr "правая голень"
+
+msgid "right eye"
+msgstr "правый глаз"
+
+msgid "right cheek"
+msgstr "правая щека"
+
+msgid "right ear"
+msgstr "правое ухо"
+
+msgid "right upper arm"
+msgstr "правое плечо"
+
+msgid "lower front teeth"
+msgstr "нижние передние зубы"
+
+msgid "tongue"
+msgstr "язык"
+
+msgid "second toe, left foot"
+msgstr "указательный палец левой ноги"
+
+msgid "left front paw"
+msgstr "передняя левая ступня"
+
+msgid "thumb, left hand"
+msgstr "большой палец левой руки"
+
+msgid "left front leg"
+msgstr "передняя левая лапа"
+
+msgid "right front paw"
+msgstr "передняя правая ступня"
+
+msgid "first finger, right hand"
+msgstr "указательный палец правой руки"
+
+msgid "first toe, right foot"
+msgstr "большой палец правой ноги"
+
+msgid "right front leg"
+msgstr "передняя правая лапа"
+
+msgid "fifth toe, left foot"
+msgstr "мезинец левой ноги"
+
+msgid "first finger, left hand"
+msgstr "указательный палец левой руки"
+
+msgid "fifth toe, right foot"
+msgstr "мезинец правой ноги"
+
+msgid "third finger, left hand"
+msgstr "безымянный палец левой руки"
+
+msgid "second finger, left hand"
+msgstr "средний палец левой руки"
+
+msgid "right rear paw"
+msgstr "задняя правая ступня"
+
+msgid "right eye tooth"
+msgstr "правый клык"
+
+msgid "third finger, right hand"
+msgstr "безымянный палец правой руки"
+
+msgid "left rear paw"
+msgstr "задняя левая ступня"
+
+msgid "third toe, left foot"
+msgstr "средний палец левой ноги"
+
+msgid "tail"
+msgstr "хвост"
+
+msgid "second toe, right foot"
+msgstr "указательный палец правой ноги"
+
+msgid "fourth toe, right foot"
+msgstr "безымянный палец правой ноги"
+
+msgid "third toe, right foot"
+msgstr "средний палец правой ноги"
+
+msgid "fourth toe, left foot"
+msgstr "безымянный палец левой ноги"
+
+msgid "left rear leg"
+msgstr "задняя левая лапа"
+
+msgid "left eye tooth"
+msgstr "левый клык"
+
+msgid "first toe, left foot"
+msgstr "большой палец левой ноги"
+
+msgid "thumb, right hand"
+msgstr "большой палец правой руки"
+
+msgid "second finger, right hand"
+msgstr "средний палец правой руки"
+
+msgid "fourth finger, left hand"
+msgstr "мезинец палец левой руки"
+
+msgid "right rear leg"
+msgstr "задняя правая лапа"
+
+msgid "fourth finger, right hand"
+msgstr "мезинец правой руки"
+
