@@ -58248,3 +58248,99 @@ msgstr "задняя правая лапа"
 msgid "fourth finger, right hand"
 msgstr "мезинец правой руки"
 
+msgid "Make menacing wooden spike"
+msgstr "Создать заточеный деревянный шип"
+
+msgid "Coffer"
+msgstr "Ларец"
+
+msgid "Make large clay pot"
+msgstr "Создать большой глиняный горшок"
+
+msgid "training sword"
+msgstr "тренировочный меч"
+
+msgid "Make spiked wooden ball"
+msgstr "Создать деревянный шар с шипами"
+
+msgid "bricks"
+msgstr "кирпичи"
+
+msgid "Wheelbarrow"
+msgstr "Тачка"
+
+msgid "Minecart"
+msgstr "Вагонетка"
+
+msgid "Casket"
+msgstr "Гроб"
+
+msgid "Coffin"
+msgstr "Гроб"
+
+msgid "Needs fire-safe anvil"
+msgstr "Требуется наковальня"
+
+msgid "limb/body casts"
+msgstr "части тел"
+
+msgid "Barrel"
+msgstr "Бочка"
+
+msgid "Grate"
+msgstr "Решетка"
+
+msgid "Pipe Section"
+msgstr "Труба"
+
+msgid "Bucket"
+msgstr "Ведро"
+
+msgid "Stepladder"
+msgstr "Стремянка"
+
+msgid "Hatch Cover"
+msgstr "Люк"
+
+msgid "Craftsdwarf's Workshop"
+msgstr "Мастерская ремесленника"
+
+msgid "Soap Maker's Workshop"
+msgstr "Мастерская мыловара"
+
+msgid "  bookkeeper Settings  "
+msgstr "Настройки счетовода"
+
+msgid "Construct Bed"
+msgstr "Изготовить кровать"
+
+msgid "Chair"
+msgstr "Стул"
+
+msgid "Screw Press"
+msgstr "Винтовой пресс"
+
+msgid "training spear"
+msgstr "тренировочное копьё"
+
+msgid "Your bookkeeper needs to work in an office to improve precision."
+msgstr "Для увеличения точности ваш счетовод должен работать в кабинете"
+
+msgid "training axe"
+msgstr "тренировочный топор"
+
+msgid "Blocks"
+msgstr "Блоки"
+
+msgid "Needs building material non-"
+msgstr "Нужен строительный"
+
+msgid "jug"
+msgstr "кувшин"
+
+msgid "Make"
+msgstr "Создать"
+
+msgid "Throne"
+msgstr "Трон"
+
