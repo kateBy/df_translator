@@ -15,42 +15,6 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Poedit 1.7.5\n"
 
-msgid "LARGE ISLAND"
-msgstr "БОЛЬШОЙ ОСТРОВ"
-
-msgid "LARGE REGION"
-msgstr "БОЛЬШОЙ РЕГИОН"
-
-msgid "MEDIUM ISLAND"
-msgstr "СРЕДНИЙ ОСТРОВ"
-
-msgid "MEDIUM REGION"
-msgstr "СРЕДНИЙ РЕГИОН"
-
-msgid "SMALL ISLAND"
-msgstr "НЕБОЛЬШОЙ ОСТРОВ"
-
-msgid "SMALL REGION"
-msgstr "НЕБОЛЬШОЙ РЕГИОН"
-
-msgid "SMALLER ISLAND"
-msgstr "МЕЛКИЙ ОСТРОВ"
-
-msgid "SMALLER REGION"
-msgstr "МЕЛКИЙ РЕГИОН"
-
-msgid "POCKET ISLAND"
-msgstr "КРОШЕЧНЫЙ ОСТРОВ"
-
-msgid "POCKET REGION"
-msgstr "КРОШЕЧНЫЙ РЕГИОН"
-
-
-
-
-
-
-
 msgid "     Dead: "
 msgstr "   Умерло: "
 
@@ -26057,7 +26021,7 @@ msgid "Present Participle"
 msgstr "Причастие настоящего времени"
 
 msgid "Press "
-msgstr "Жмите "
+msgstr "Нажмите "
 
 msgid "Pressed Material"
 msgstr "Прессованные материалы"
@@ -55119,7 +55083,7 @@ msgid "Chapter II: Dwarf Fortress"
 msgstr "Часть II: Крепость Дварфов"
 
 msgid "Programmed by Tarn Adams"
-msgstr "Программирование: Тарн Адамс"
+msgstr "Программист - Тарн Адамс"
 
 msgid "raw fish"
 msgstr "свежая рыба"
@@ -56704,7 +56668,7 @@ msgid "Mountain goats"
 msgstr "Горные козлы"
 
 msgid "Hydras"
-msgstr "Гидрыы"
+msgstr "Гидры"
 
 msgid "Rats"
 msgstr "Крысы"
@@ -58376,4 +58340,145 @@ msgstr "Создать"
 
 msgid "Throne"
 msgstr "Трон"
+
+msgid "As there has been some time between releases, instability is to be expected."
+msgstr "Поскольку между релизами прошло некоторое время, возможна нестабильность."
+
+msgid "You can also find an older yet more stable version of the game there."
+msgstr "Там же вы можете найти более старые и стабильные версии игры."
+
+msgid "Report crashes, hangs, lags, bugs and general disappointment at the forums."
+msgstr "Сообщайте о вылетах, зависаниях, тормозах, багах и прочем на форумах"
+
+msgid "There is more information at our website and in the readme file."
+msgstr "Дополнительную информацию вы можете получить на нашем веб сайте и в файле readme."
+
+msgid "Please make use of and contribute to this valuable resource."
+msgstr "Пожалуйста, пользуйтесь и вносите свой вклад в этот ценный ресурс."
+
+msgid "They are at our website, bay12games.com.  Check there for updates."
+msgstr "на нашем вебсайте bay12games.com.  Следите за обновлениями."
+
+msgid "Welcome to the alpha of Dwarf Fortress."
+msgstr "Добро пожаловать в альфа-версию Dwarf Fortress."
+
+msgid "If you enjoy the game, please consider supporting Bay 12 Games."
+msgstr "Если игра вам понравилась, подумайте над тем, чтобы поддержать Bay 12 Games."
+
+msgid "As of January 2015, you can get help at the fan-created dwarffortresswiki.org."
+msgstr "Кроме того, вы можете получить помощь на dwarffortresswiki.org."
+
+msgid "dwarven beer"
+msgstr "дварфийское пиво"
+
+msgid "Yak"
+msgstr "Як"
+
+msgid "trousers"
+msgstr "брюки"
+
+msgid "shoe"
+msgstr "башмак"
+
+msgid "cave spider"
+msgstr "пещерный паук"
+
+msgid "cap"
+msgstr "шапка"
+
+msgid "pig tail"
+msgstr "свинохвост"
+
+msgid "giant cave spider"
+msgstr "гигантский пещерный паук"
+
+msgid "battle axe"
+msgstr "боевой топор"
+
+msgid "right mitten"
+msgstr "правая рукавица"
+
+msgid "Up/Down Stairway"
+msgstr "Сквозная лестница"
+
+msgid "Armor Stands"
+msgstr "Доспешных стоек"
+
+msgid "Upward Slope"
+msgstr "Подъем"
+
+msgid "Cabinets"
+msgstr "Шкафов"
+
+msgid "dwarven ale"
+msgstr "дварфийский эль"
+
+msgid "buckler"
+msgstr "малый щит"
+
+msgid "Crutch"
+msgstr "Костыли"
+
+msgid "Weapon Racks"
+msgstr "Оружейных стоек"
+
+msgid "Chests"
+msgstr "Сундуков"
+
+msgid "left glove"
+msgstr "левая перчатка"
+
+msgid "Downward Stairway"
+msgstr "Лестница вниз"
+
+msgid "right glove"
+msgstr "правая перчатка"
+
+msgid "left mitten"
+msgstr "левая рукавица"
+
+msgid "hood"
+msgstr "капюшон"
+
+msgid "Extract"
+msgstr "Извлекать"
+
+msgid "Bin"
+msgstr "Ящик"
+
+msgid "king"
+msgstr "король"
+
+msgid "picks"
+msgstr "пики"
+
+msgid "make"
+msgstr "делать"
+
+msgid "Splint"
+msgstr "Шина"
+
+msgid "queen"
+msgstr "королева"
+
+msgid "Upward Stairway"
+msgstr "Лестница вверх"
+
+msgid "Cavern Floor"
+msgstr "Пол пещеры"
+
+msgid "cloak"
+msgstr "плащ"
+
+msgid "robe"
+msgstr "роба"
+
+msgid "dress"
+msgstr "платье"
+
+msgid "sock"
+msgstr "носок"
+
+msgid "wolverine"
+msgstr "россомаха"
 

@@ -5,25 +5,32 @@ import imp
 imp.reload(regulars) #Необходимо для ребилда модуля регулярных выражений. Для отладки
 
 #Разрешает или запрещает вывод непереведённого текста в консоль
-MAKE_OUTPUT = False
+MAKE_OUTPUT = True
 
 #Строки, которые не нужно отображать. Для отладки
 DO_NOT_SHOW = [
                "  Dwarf Fortress  ",
-               "ESC"
+               "ESC",
+               "Enter",
+               "Alt+b",
+               ": ",
+               "Shift+Enter",
+               "Tab"
                ]
 
 
 def GET_TRANSLATE(original):
     """Функция проверяет наличие перевода строки, если его нет, возвращает запрашиваему назад"""
     if original == "":
-        return ""
-    translate = InstanceStrings.get(original)
-    if translate == None:
-        print("TRANSL --->\"%s\"" % original)
         return original
-    else:
+    
+    translate = InstanceStrings.get(original)
+    if translate != None:
         return translate
+
+    print("TRANSL --->\"%s\"" % original)
+    return original
+
 
 regulars.GET_TRANSLATE = GET_TRANSLATE
 
@@ -59,6 +66,8 @@ def load_trans_mo(fn):
         result[i.msgid] = i.msgstr
 
     return result
+
+toUTF16 = lambda x: x.encode("utf-16")+b"\0\0"
         
 
 def GetTranslate(_text):
@@ -68,13 +77,18 @@ def GetTranslate(_text):
     fromInstance = InstanceStrings.get(text)
 
     if fromInstance != None:
-        return fromInstance.encode("utf-16")+b"\0\0"
-    else:
-        result = regulars.Regulars(text)
-        if result != None:
-            return result.encode("utf-16")+b"\0\0"
-        
+        return toUTF16(fromInstance)
 
+    """Вторая попытка поиска слова с большой буквы"""
+    if len(text) > 1:
+        fromInstance = InstanceStrings.get(text[0].upper() + text[1:])
+        if fromInstance != None:
+            return toUTF16(fromInstance)
+
+    """Запускаем поиск через регулярные выражения"""
+    result = regulars.Regulars(text)
+    if result != None:
+        return toUTF16(result)
    
     return None
         

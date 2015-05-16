@@ -56,11 +56,11 @@ def ChangeText(s):
     
     decoded = s.decode("utf-16")
 
-    #try:
-    result = ch_strings.GetTranslate(s)
-    #except:
-    #    print("Ошибка при получении перевода")
-    #    result = None
+    try:
+        result = ch_strings.GetTranslate(s)
+    except:
+        print("Ошибка при получении перевода", decoded)
+        result = None
     
     if result != None:
         last_answer = result

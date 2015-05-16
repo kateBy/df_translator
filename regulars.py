@@ -6,6 +6,23 @@ import re
 #Должен быть уставновлен из вызывающего модуля
 GET_TRANSLATE = None
 
+MATERIALS = {
+         "wooden":    {"MADEOF":"из дерева", "MALE":"деревянный", "FEMALE":"деревянную", "MIDDLE":"деревянное", "MULTI":"деревянные"},
+         "rock":      {"MADEOF":"из камня",  "MALE":"каменный",   "FEMALE":"каменную",   "MIDDLE":"каменное",   "MULTI":"каменные"},
+         "steel":     {"MADEOF":"из стали",  "MALE":"стальной",   "FEMALE":"стальную",   "MIDDLE":"стальное",   "MULTI":"стальные"},
+         "pig iron":  {"MADEOF":"из чугуна", "MALE":"чугунный",   "FEMALE":"чугунную",   "MIDDLE":"чугунное",   "MULTI":"чугунные"},
+         "clay":      {"MADEOF":"из глины",  "MALE":"глиняный",   "FEMALE":"глиняную",   "MIDDLE":"глиняное",   "MULTI":"глиняные"},
+         "plaster":   {"MADEOF":"из гипса",  "MALE":"гипсовый",   "FEMALE":"гипсовую",   "MIDDLE":"гипсовое",   "MULTI":"гипсовые"},
+         "copper":    {"MADEOF":"из меди",   "MALE":"медный",     "FEMALE":"медная",     "MIDDLE":"медное",     "MULTI":"медные"},
+         "gabbro":    {"MADEOF":"из габбро", "MALE":"габбровый",  "FEMALE":"габбровая",  "MIDDLE":"габбровое",  "MULTI":"габбровые"}, #Мне было нечего делать :)
+         "sand":      {"MADEOF":"из песка",  "MALE":"песчаный",   "FEMALE":"песчаная",   "MIDDLE":"песчаное",   "MULTI":"песчаные"},
+         "fire clay": {"MADEOF":"из огнеупорной глины",   "MALE":"огнеупорная глина",     "FEMALE":"огнеупорная глина",     "MIDDLE":"огнеупорная глина", "MULTI":"огнеупорная глина"},
+         "adamantine":{"MADEOF":"из адамантина",  "MALE":"адамантиновый",   "FEMALE":"адамантиновую",   "MIDDLE":"адамантиновое",   "MULTI":"адамантиновые"}
+         
+         }
+
+MATS_DIVIDED = "|".join([x for x in MATERIALS]) #Материалы, разделенные | для вставки в регулярные выражения
+
 
 MAIN_MENU_TITLE     = re.compile(r"Histories of (\w+) and (\w+)") #Меняющийся заголовок главного меню
 WORDS_AND_NUMBER    = re.compile(r"(\w+.*(?: \w+)*) (\(\d+\))") #Mason's Workshop (1) | Pets/Livestock (16)
@@ -16,13 +33,19 @@ NAME_AND_PROFESSION = re.compile(r"(\w+? \w+?),\s(\w+(?: \w+)*)$")#Zuglar Reggik
 WATER_COVERING      = re.compile(r"water covering \((\w+(?: \w+)*.(?: \w+)*)\)")#water covering (upper body)
 YOU_HAVE_STRUCT     = re.compile(r"You have struck (\w+(?: \w+)*)!") #"You have struck blue jade!"
 NEEDS               = re.compile(r"Needs (\w+(?: \w+)*)")# "Needs millstone"
-ORE_OF              = re.compile(r"Ore of (\w+)")
+ORE_OF              = re.compile(r"Ore of (\w+)")#Ore of iron
 WORLD_SIZE_STRING   = re.compile(r"This controls the size of the world map.  Current: (.+)")
 WORLD_HISTORY       = re.compile(r"This is the length of pre-generated history.  Current: (\d+) years")
+YEAR_NUM            = re.compile(r"Year (\d+)")
+COVER_MATERIAL      = re.compile(r"(" + MATS_DIVIDED + ") (Downward\ Slope|Upward\ Slope|Cavern\ Floor|Downward\ Stairway|Up/Down Stairway)") #chalk Cavern Floor
+NO_CHESTS           = re.compile(r"(No|\d+) (\w+(?: \w+)*)")#No Chests "5 Cabinets"
+NOTHING_TO_CATCH    = re.compile(r"There is nothing to catch in the (\w+) swamps")
+WEALTH              = re.compile(r"  The Wealth of (\w+(?: \w+)*)") # "  The Wealth of НазваниеКрепости 
 
+MAKE                = re.compile(r"\s*(make|Make|Construct|Extract) ("+ MATS_DIVIDED +") (\w+(?: \w+)*)") #Construct wooden Armor Stand
+WEAR                = re.compile(r"\(*(\w+(?: \w+)*) (silk|wool|leather|fiber) (\w+(?: \w+)*)")
+WEAPON              = re.compile(r"\(*(" + MATS_DIVIDED + ") (\w+(?: \w+)*)( \[\d\])*\)*")
 
-#Мастерские мастерская
-MAKE = re.compile(r"\s*(Make|Construct) (wooden|rock|steel|pig\ iron|clay) (\w+(?: \w+)*)") #Construct wooden Armor Stand
 
 
 def TEST_GENDER(word):
@@ -39,6 +62,65 @@ def TEST_GENDER(word):
     
     #Если окончание не найдено, вернется MALE
     return SUFFIXES.get(word[-1],"MALE")
+
+
+
+
+def GET_MATERIAL(word, form_type):
+    if not form_type in ["MALE", "FEMALE", "MIDDLE", "MULTI", "MADEOF"]:
+        return word
+
+    mat_dict = MATERIALS.get(word)
+    if mat_dict != None:
+        return mat_dict.get(form_type)
+    else:
+        return word
+
+def PROC_WEAPON(text):
+    tmp = WEAPON.findall(text)[0]
+    mat = GET_MATERIAL(tmp[0], "MADEOF") #Берем перевод материала, если такой есть
+    wat = GET_TRANSLATE(tmp[1])
+    cnt = tmp[2]
+    return " ".join([wat, mat, cnt])
+
+def PROC_WEAR(text):
+    """Функция обрабатывает строки вида: cave spider silk trousers"""
+    mats = {"silk":"из шелка",  #Из чего
+            "wool":"из шерсти",
+            "leather":"из кожи",
+            "fiber":"из нити"}
+
+    tmp = WEAR.findall(text)[0]
+    who = GET_TRANSLATE(tmp[0]) #Чьё
+    wat = GET_TRANSLATE(tmp[2]) #Что
+
+    return "%s %s %s" % (wat, mats.get(tmp[1], "НЕТ ПЕРЕВОДА"), who)
+
+def PROC_COVER_MATERIAL(text):
+    """Функция обрабатывает строки вида: chalk Cavern Floor"""
+    tmp = COVER_MATERIAL.findall(text)[0]
+    wat = GET_TRANSLATE(tmp[1])
+    mat = GET_MATERIAL(tmp[0], "MADEOF")
+    return wat + " " + mat
+
+def PROC_WEALTH(text):
+    tmp = WEALTH.findall(text)[0]
+    return "  Запасы крепости " + tmp + "  "
+
+def PROC_NOTHING_TO_CATCH(text):
+    tmp = NOTHING_TO_CATCH.findall(text)[0]
+    return "Ничего не ловится в " + GET_TRANSLATE(tmp) + " болотах."
+
+def PROC_NO_CHESTS(text):
+    tmp = NO_CHESTS.findall(text)[0]
+    if tmp[0] == "No":
+        return "Нет " + GET_TRANSLATE(tmp[1])
+    else:
+        return tmp[0] + " " + GET_TRANSLATE(tmp[1])
+
+def PROC_YEAR_NUM(text):
+    tmp = YEAR_NUM.findall(text)
+    return "Год " + str(tmp[0]) 
 
 def PROC_WORLD_HISTORY(text):
     tmp = WORLD_HISTORY.findall(text)
@@ -61,19 +143,12 @@ def PROC_MAKE(text):
     thing = GET_TRANSLATE(tmp[2])
     gender = TEST_GENDER(thing)
 
-    MATERIALS = {
-                 "wooden":   {"MALE":"деревянный", "FEMALE":"деревянную", "MIDDLE":"деревянное", "MULTI":"деревянные"},
-                 "rock":     {"MALE":"каменный",   "FEMALE":"каменную",   "MIDDLE":"каменное",   "MULTI":"каменные"},
-                 "steel":    {"MALE":"стальной",   "FEMALE":"стальную",   "MIDDLE":"стальное",   "MULTI":"стальные"},
-                 "pig iron": {"MALE":"чугунный",   "FEMALE":"чугунную",   "MIDDLE":"чугунное",   "MULTI":"чугунные"},
-                 "clay":     {"MALE":"глиняный",   "FEMALE":"глиняную",   "MIDDLE":"глиняное",   "MULTI":"глиняные"},
-                 }
     #Меняем последнюю букву слов женского рода
     FEMALE_SUFFIXES = {"а":"у", "я":"ю"}
     if gender == "FEMALE":
         thing = thing[:-1] + FEMALE_SUFFIXES.get(thing[-1],thing[-1]) #Если окончание не присутствует в списке, то возвращается оригинальное
 
-    material = MATERIALS.get(tmp[1]).get(gender)
+    material = GET_MATERIAL(tmp[1], gender)
 
     return " ".join([action, material, thing])
     
@@ -140,7 +215,7 @@ def PROC_STRAY_ANIMAL_GENDER(text):
 
 def PROC_MAIN_MENU_TITLE(text):
     """Обрабатывает заголовок в главном меню: Histories of Greed and Industry"""
-    TEMPLATE = "Истории о%s и %s"
+    TEMPLATE = "Истории о %s и %s"
     tmp = MAIN_MENU_TITLE.split(text)
     transl1 = GET_TRANSLATE(tmp[1])
     transl2 = GET_TRANSLATE(tmp[2])
@@ -160,7 +235,14 @@ YOU_HAVE_STRUCT:     PROC_YOU_HAVE_STRUCT,
 MAKE:                PROC_MAKE,
 ORE_OF:              PROC_ORE_OF,
 WORLD_SIZE_STRING:   PROC_WORLD_SIZE_STRING,
-WORLD_HISTORY:       PROC_WORLD_HISTORY
+WORLD_HISTORY:       PROC_WORLD_HISTORY,
+YEAR_NUM:            PROC_YEAR_NUM,
+NO_CHESTS:           PROC_NO_CHESTS,
+NOTHING_TO_CATCH:    PROC_NOTHING_TO_CATCH,
+WEALTH:              PROC_WEALTH,
+COVER_MATERIAL:      PROC_COVER_MATERIAL,
+WEAR:                PROC_WEAR,
+WEAPON:              PROC_WEAPON
 }
 
 def Regulars(text):
