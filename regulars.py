@@ -43,8 +43,10 @@ NOTHING_TO_CATCH    = re.compile(r"There is nothing to catch in the (\w+) swamps
 WEALTH              = re.compile(r"  The Wealth of (\w+(?: \w+)*)") # "  The Wealth of НазваниеКрепости 
 
 MAKE                = re.compile(r"\s*(make|Make|Construct|Extract) ("+ MATS_DIVIDED +") (\w+(?: \w+)*)") #Construct wooden Armor Stand
-WEAR                = re.compile(r"\(*(\w+(?: \w+)*) (silk|wool|leather|fiber) (\w+(?: \w+)*)")
-WEAPON              = re.compile(r"\(*(" + MATS_DIVIDED + ") (\w+(?: \w+)*)( \[\d\])*\)*")
+WEAR                = re.compile(r"\(*(\w+(?: \w+)*) (silk|wool|leather|fiber) (\w+(?: \w+)*)") # cave spider silk trousers
+WEAPON              = re.compile(r"\(*(" + MATS_DIVIDED + ") (\w+(?: \w+)*)( \[\d\])*\)*") # copper Battle Axe
+
+FIRST_IN_MINDS      = re.compile(r'"(.+)"') # "I don't like being obligated to anybody."
 
 
 
@@ -76,26 +78,10 @@ def GET_MATERIAL(word, form_type):
     else:
         return word
 
-def PROC_WEAPON(text):
-    tmp = WEAPON.findall(text)[0]
-    mat = GET_MATERIAL(tmp[0], "MADEOF") #Берем перевод материала, если такой есть
-    wat = GET_TRANSLATE(tmp[1])
-    cnt = tmp[2]
-    return " ".join([wat, mat, cnt])
-
-def PROC_WEAR(text):
-    """Функция обрабатывает строки вида: cave spider silk trousers"""
-    mats = {"silk":"из шелка",  #Из чего
-            "wool":"из шерсти",
-            "leather":"из кожи",
-            "fiber":"из нити"}
-
-    tmp = WEAR.findall(text)[0]
-    who = GET_TRANSLATE(tmp[0]) #Чьё
-    wat = GET_TRANSLATE(tmp[2]) #Что
-
-    return "%s %s %s" % (wat, mats.get(tmp[1], "НЕТ ПЕРЕВОДА"), who)
-
+#========== A ==========
+#========== B ==========
+#========== C ==========
+    
 def PROC_COVER_MATERIAL(text):
     """Функция обрабатывает строки вида: chalk Cavern Floor"""
     tmp = COVER_MATERIAL.findall(text)[0]
@@ -103,37 +89,29 @@ def PROC_COVER_MATERIAL(text):
     mat = GET_MATERIAL(tmp[0], "MADEOF")
     return wat + " " + mat
 
-def PROC_WEALTH(text):
-    tmp = WEALTH.findall(text)[0]
-    return "  Запасы крепости " + tmp + "  "
+#========== D ==========
+#========== E ==========
+#========== F ==========
+    
+def PROC_FIRST_IN_MINDS(text):
+    tmp = FIRST_IN_MINDS.findall(text)[0]
+    return '"' + GET_TRANSLATE(tmp) + '"'
 
-def PROC_NOTHING_TO_CATCH(text):
-    tmp = NOTHING_TO_CATCH.findall(text)[0]
-    return "Ничего не ловится в " + GET_TRANSLATE(tmp) + " болотах."
+#========== G ==========
+#========== H ==========
+#========== I ==========
+#========== J ==========
+#========== K ==========
+#========== L ==========
+#========== M ==========
 
-def PROC_NO_CHESTS(text):
-    tmp = NO_CHESTS.findall(text)[0]
-    if tmp[0] == "No":
-        return "Нет " + GET_TRANSLATE(tmp[1])
-    else:
-        return tmp[0] + " " + GET_TRANSLATE(tmp[1])
-
-def PROC_YEAR_NUM(text):
-    tmp = YEAR_NUM.findall(text)
-    return "Год " + str(tmp[0]) 
-
-def PROC_WORLD_HISTORY(text):
-    tmp = WORLD_HISTORY.findall(text)
-    return "Этот параметр отвечает за предысторию мира. Она составит: %s лет" % tmp[0]
-
-def PROC_WORLD_SIZE_STRING(text):
-    tmp = WORLD_SIZE_STRING.findall(text)
-    return "Этот параметр отвечает за размер мира. Текущий размер: " + tmp[0]
-
-
-def PROC_ORE_OF(text):
-    tmp = ORE_OF.findall(text)[0]
-    return "Руда: " + GET_TRANSLATE(tmp)
+def PROC_MAIN_MENU_TITLE(text):
+    """Обрабатывает заголовок в главном меню: Histories of Greed and Industry"""
+    TEMPLATE = "Истории о %s и %s"
+    tmp = MAIN_MENU_TITLE.split(text)
+    transl1 = GET_TRANSLATE(tmp[1])
+    transl2 = GET_TRANSLATE(tmp[2])
+    return TEMPLATE % (transl1, transl2)
 
 
 def PROC_MAKE(text):
@@ -151,30 +129,8 @@ def PROC_MAKE(text):
     material = GET_MATERIAL(tmp[1], gender)
 
     return " ".join([action, material, thing])
-    
 
-def PROC_YOU_HAVE_STRUCT(text):
-    """Функция обрабатывает строки типа: You have struck blue jade!"""
-    tmp = YOU_HAVE_STRUCT.findall(text)[0]
-    return "Вы нашли " + GET_TRANSLATE(tmp)
-
-def PROC_WATER_COVERING(text):
-    """Функция обрабатывает строки типа: water covering (upper body)"""
-    TEMPLATE = {"MALE":"водой покрыт (%s)",
-                "FEMALE":"водой покрыта (%s)",
-                "MIDDLE":"водой покрыто (%s)",
-                "MULTI":"водой покрыты (%s)"}
-    tmp = WATER_COVERING.findall(text)[0]
-    trans = GET_TRANSLATE(tmp)
-    gender = TEST_GENDER(trans)
-    return TEMPLATE[gender] % trans                              
-    
-
-def PROC_WORDS_AND_NUMBER(text):
-    """Функция обработки выражений типа: Citizens (7)"""
-    tmp = WORDS_AND_NUMBER.findall(text)[0]
-    trans = GET_TRANSLATE(tmp[0])    
-    return trans + " " + tmp[1]
+#========== N ==========
 
 def PROC_NAME_AND_PROFESSION(text):
     """Функция обработки строк в виде имени и профессии через запятую"""
@@ -183,6 +139,29 @@ def PROC_NAME_AND_PROFESSION(text):
     return tmp[1] + ", " + trans
 
 
+def PROC_NO_CHESTS(text):
+    """Функция для обрабоки строки запросов знати, где сказано, что что-то отсутствует No Chests"""
+    tmp = NO_CHESTS.findall(text)[0]
+    if tmp[0] == "No":
+        return "Нет " + GET_TRANSLATE(tmp[1])
+    else:
+        return tmp[0] + " " + GET_TRANSLATE(tmp[1])
+
+def PROC_NOTHING_TO_CATCH(text):
+    tmp = NOTHING_TO_CATCH.findall(text)[0]
+    return "Ничего не ловится в " + GET_TRANSLATE(tmp) + " болотах."
+
+#========== O ==========
+
+def PROC_ORE_OF(text):
+    tmp = ORE_OF.findall(text)[0]
+    return "Руда: " + GET_TRANSLATE(tmp)
+
+#========== P ==========
+#========== Q ==========
+#========== R ==========
+#========== S ==========
+
 def PROC_SKILLS(text):
     """Функция обработки выражений типа: Novice Miner"""
     tmp = SKILLS.split(text)
@@ -190,7 +169,6 @@ def PROC_SKILLS(text):
     skill  = GET_TRANSLATE(tmp[2])
     ret = quality + " " + skill
     return ret
-
 
 def PROC_STRAY_ANIMAL(text):
     """Функция обработки выражений типа: Stray Hen (Tame)"""
@@ -213,13 +191,85 @@ def PROC_STRAY_ANIMAL_GENDER(text):
     gender = TEST_GENDER(transl)
     return TEMPLATE[gender] % (transl, tmp[2])
 
-def PROC_MAIN_MENU_TITLE(text):
-    """Обрабатывает заголовок в главном меню: Histories of Greed and Industry"""
-    TEMPLATE = "Истории о %s и %s"
-    tmp = MAIN_MENU_TITLE.split(text)
-    transl1 = GET_TRANSLATE(tmp[1])
-    transl2 = GET_TRANSLATE(tmp[2])
-    return TEMPLATE % (transl1, transl2)
+#========== T ==========
+#========== U ==========
+#========== V ==========
+#========== W ==========
+
+def PROC_WATER_COVERING(text):
+    """Функция обрабатывает строки типа: water covering (upper body)"""
+    TEMPLATE = {"MALE":"водой покрыт (%s)",
+                "FEMALE":"водой покрыта (%s)",
+                "MIDDLE":"водой покрыто (%s)",
+                "MULTI":"водой покрыты (%s)"}
+    tmp = WATER_COVERING.findall(text)[0]
+    trans = GET_TRANSLATE(tmp)
+    gender = TEST_GENDER(trans)
+    return TEMPLATE[gender] % trans 
+
+def PROC_WEALTH(text):#==
+    tmp = WEALTH.findall(text)[0]
+    return "  Запасы крепости " + tmp + "  "
+
+def PROC_WEAPON(text):
+    tmp = WEAPON.findall(text)[0]
+    mat = GET_MATERIAL(tmp[0], "MADEOF") #Берем перевод материала, если такой есть
+    wat = GET_TRANSLATE(tmp[1])
+    cnt = tmp[2]
+    return " ".join([wat, mat, cnt])
+
+def PROC_WEAR(text):
+    """Функция обрабатывает строки вида: cave spider silk trousers"""
+    mats = {"silk":"из шелка",  #Из чего
+            "wool":"из шерсти",
+            "leather":"из кожи",
+            "fiber":"из нити"}
+
+    tmp = WEAR.findall(text)[0]
+    who = GET_TRANSLATE(tmp[0]) #Чьё
+    wat = GET_TRANSLATE(tmp[2]) #Что
+
+    return "%s %s %s" % (wat, mats.get(tmp[1], "НЕТ ПЕРЕВОДА"), who)
+
+
+def PROC_WORDS_AND_NUMBER(text):
+    """Функция обработки выражений типа: Citizens (7)"""
+    tmp = WORDS_AND_NUMBER.findall(text)[0]
+    trans = GET_TRANSLATE(tmp[0])    
+    return trans + " " + tmp[1]
+
+
+def PROC_WORLD_HISTORY(text):
+    tmp = WORLD_HISTORY.findall(text)
+    return "Этот параметр отвечает за предысторию мира. Она составит: %s лет" % tmp[0]
+
+def PROC_WORLD_SIZE_STRING(text):
+    tmp = WORLD_SIZE_STRING.findall(text)
+    return "Этот параметр отвечает за размер мира. Текущий размер: " + tmp[0]
+
+#========== X ==========
+#========== Y ==========
+
+def PROC_YEAR_NUM(text):
+    """При генерации мира есть строка Year: 125"""
+    tmp = YEAR_NUM.findall(text)
+    return "Год " + str(tmp[0])
+
+def PROC_YOU_HAVE_STRUCT(text):
+    """Функция обрабатывает строки типа: You have struck blue jade!"""
+    tmp = YOU_HAVE_STRUCT.findall(text)[0]
+    return "Вы нашли " + GET_TRANSLATE(tmp)
+
+#========== Z ==========
+
+
+
+
+
+
+
+
+
 
 
 #Словарь регулярных выражений, состоит из самого выражения и функции-обработчика дла нее
@@ -242,7 +292,8 @@ NOTHING_TO_CATCH:    PROC_NOTHING_TO_CATCH,
 WEALTH:              PROC_WEALTH,
 COVER_MATERIAL:      PROC_COVER_MATERIAL,
 WEAR:                PROC_WEAR,
-WEAPON:              PROC_WEAPON
+WEAPON:              PROC_WEAPON,
+FIRST_IN_MINDS:      PROC_FIRST_IN_MINDS
 }
 
 def Regulars(text):

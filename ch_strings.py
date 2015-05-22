@@ -79,9 +79,14 @@ def GetTranslate(_text):
     if fromInstance != None:
         return toUTF16(fromInstance)
 
-    """Вторая попытка поиска слова с большой буквы"""
     if len(text) > 1:
-        fromInstance = InstanceStrings.get(text[0].upper() + text[1:])
+        """Если слово не найдено в словаре пробуем искать его с маленькой буквы"""
+        if text[0].isupper():
+            fromInstance = InstanceStrings.get(text[0].lower() + text[1:])
+        else:
+            """Вторая попытка поиска слова с большой буквы"""
+            fromInstance = InstanceStrings.get(text[0].upper() + text[1:])
+            
         if fromInstance != None:
             return toUTF16(fromInstance)
 
