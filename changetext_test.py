@@ -1,3 +1,8 @@
+"""
+Модуль используется во время отладки, для интерактивной перезагрузки
+модуля перевода и регулярных выражений, что существенно помогает при создании
+перевода, при этом не требуется перезапуск самой игры.
+"""
 import imp
 from time import time
 from os.path import getmtime
@@ -8,13 +13,6 @@ global last_modified_main
 global last_modified_regul
 last_modified_main = getmtime('ch_strings.py')
 last_modified_regul = getmtime('regulars.py')
-
-global last_answer
-global last_ask
-
-last_answer = None
-last_ask = None
-
 
 def ChangeText(s):
     global last_modified_main
@@ -40,19 +38,6 @@ def ChangeText(s):
            imp.reload(ch_strings)
     except:
         print("Ошибка при перезагрузке модуля regulars.py")
-
-
-
-
-
-
-
-        
-           
-    if last_ask == s:
-        return last_answer
-    else:
-        last_ask = s
     
     decoded = s.decode("utf-16")
 
@@ -72,10 +57,3 @@ def ChangeText(s):
                     print('\"%s\"' % decoded)
         last_answer = None
         return None
-
-def test(text):
-    a = ChangeText(text.encode("utf-16"))
-    if a != None:
-        print(a[:-2].decode("utf-16"))
-    else:
-        print("Not Found")
