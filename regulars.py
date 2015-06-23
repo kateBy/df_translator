@@ -26,7 +26,7 @@ MATS_DIVIDED = "|".join([x for x in MATERIALS]) #Материалы, разде�
 
 MAIN_MENU_TITLE     = re.compile(r"Histories of (\w+) and (\w+)") #Меняющийся заголовок главного меню
 WORDS_AND_NUMBER    = re.compile(r"(\w+.*(?: \w+)*) (\(\d+\))") #Mason's Workshop (1) | Pets/Livestock (16)
-SKILLS              = re.compile(r"(Dabbling|Novice|Adequate|Proficient|Legendary) ") #Novice Miner #Adequate Fish Cleaner
+SKILLS              = re.compile(r"(Dabbling|Novice|Adequate|Competent|Proficient|Legendary) ") #Novice Miner #Adequate Fish Cleaner
 STRAY_ANIMAL        = re.compile(r"\s*Stray ((\w+ )+)") #Stray Hen (Tame) | Stray Yak Cow (Tame)
 STRAY_ANIMAL_GENDER = re.compile(r"Stray (\w+?), (♀|♂) \((\S+?)\)") #"Stray Dog, ♀♂ (Tame)"
 NAME_AND_PROFESSION = re.compile(r"(\w+? \w+?),\s(\w+(?: \w+)*)$")#Zuglar Reggikut, Fisherdwarf
@@ -36,11 +36,15 @@ NEEDS               = re.compile(r"Needs (\w+(?: \w+)*)")# "Needs millstone"
 ORE_OF              = re.compile(r"Ore of (\w+)")#Ore of iron
 WORLD_SIZE_STRING   = re.compile(r"This controls the size of the world map.  Current: (.+)")
 WORLD_HISTORY       = re.compile(r"This is the length of pre-generated history.  Current: (\d+) years")
-YEAR_NUM            = re.compile(r"Year (\d+)")
+YEAR_NUM            = re.compile(r"Year (\d+)") # Year 1150
 COVER_MATERIAL      = re.compile(r"(" + MATS_DIVIDED + ") (Downward\ Slope|Upward\ Slope|Cavern\ Floor|Downward\ Stairway|Up/Down Stairway)") #chalk Cavern Floor
 NO_CHESTS           = re.compile(r"(No|\d+) (\w+(?: \w+)*)")#No Chests "5 Cabinets"
 NOTHING_TO_CATCH    = re.compile(r"There is nothing to catch in the (\w+) swamps")
-WEALTH              = re.compile(r"  The Wealth of (\w+(?: \w+)*)") # "  The Wealth of НазваниеКрепости 
+WEALTH              = re.compile(r"  The Wealth of (\w+(?: \w+)*)") # "  The Wealth of НазваниеКрепости
+
+WOOD_LOGS           = re.compile(r"(\w+(?: \w+)*) wood logs") # bitter orange logs
+TREES               = re.compile(r"(\w+(?: \w+)*) trees") # bitter paradise nut trees
+LEATHER             = re.compile(r"(.+(?: \w+)*) Leather") # Giant Jackal Man Leather
 
 MAKE                = re.compile(r"\s*(make|Make|Construct|Extract) ("+ MATS_DIVIDED +") (\w+(?: \w+)*)") #Construct wooden Armor Stand
 WEAR                = re.compile(r"\(*(\w+(?: \w+)*) (silk|wool|leather|fiber) (\w+(?: \w+)*)") # cave spider silk trousers
@@ -103,6 +107,12 @@ def PROC_FIRST_IN_MINDS(text):
 #========== J ==========
 #========== K ==========
 #========== L ==========
+
+def PROC_LEATHER(text):
+    tmp = LEATHER.findall(text)[0]
+    transl = GET_TRANSLATE(tmp)
+    return "Кожа " + transl
+
 #========== M ==========
 
 def PROC_MAIN_MENU_TITLE(text):
@@ -154,6 +164,8 @@ def PROC_NOTHING_TO_CATCH(text):
 #========== O ==========
 
 def PROC_ORE_OF(text):
+    """При просмотре запасов показываем руду чего-либо,
+    используется 'Руда:' для того, чтобы не крутиться с падежами"""
     tmp = ORE_OF.findall(text)[0]
     return "Руда: " + GET_TRANSLATE(tmp)
 
@@ -192,6 +204,15 @@ def PROC_STRAY_ANIMAL_GENDER(text):
     return TEMPLATE[gender] % (transl, tmp[2])
 
 #========== T ==========
+
+def PROC_TREES(text):
+    """Обрабатываются строки в настройках склада, например: banana trees"""
+    tmp = TREES.findall(text)[0]
+    transl = GET_TRANSLATE(tmp)
+
+    return "древесина " + transl
+
+    
 #========== U ==========
 #========== V ==========
 #========== W ==========
@@ -207,7 +228,8 @@ def PROC_WATER_COVERING(text):
     gender = TEST_GENDER(trans)
     return TEMPLATE[gender] % trans 
 
-def PROC_WEALTH(text):#==
+def PROC_WEALTH(text):
+    """Эта строчка появляется вверху, при просмотре запасов"""
     tmp = WEALTH.findall(text)[0]
     return "  Запасы крепости " + tmp + "  "
 
@@ -230,6 +252,12 @@ def PROC_WEAR(text):
     wat = GET_TRANSLATE(tmp[2]) #Что
 
     return "%s %s %s" % (wat, mats.get(tmp[1], "НЕТ ПЕРЕВОДА"), who)
+
+def PROC_WOOD_LOGS(text):
+    """Строки при выборе материала постройки: abaca logs"""
+    tmp = WOOD_LOGS.findall(text)[0]
+    trans = GET_TRANSLATE(tmp)
+    return "бревна " + trans 
 
 
 def PROC_WORDS_AND_NUMBER(text):
@@ -270,33 +298,15 @@ def PROC_YOU_HAVE_STRUCT(text):
 
 
 
-
-
-#Словарь регулярных выражений, состоит из самого выражения и функции-обработчика дла нее
-RegularExpressions = {
-MAIN_MENU_TITLE:     PROC_MAIN_MENU_TITLE,
-WORDS_AND_NUMBER:    PROC_WORDS_AND_NUMBER,
-SKILLS:              PROC_SKILLS,
-STRAY_ANIMAL:        PROC_STRAY_ANIMAL,
-STRAY_ANIMAL_GENDER: PROC_STRAY_ANIMAL_GENDER,
-NAME_AND_PROFESSION: PROC_NAME_AND_PROFESSION,
-WATER_COVERING:      PROC_WATER_COVERING,
-YOU_HAVE_STRUCT:     PROC_YOU_HAVE_STRUCT,
-MAKE:                PROC_MAKE,
-ORE_OF:              PROC_ORE_OF,
-WORLD_SIZE_STRING:   PROC_WORLD_SIZE_STRING,
-WORLD_HISTORY:       PROC_WORLD_HISTORY,
-YEAR_NUM:            PROC_YEAR_NUM,
-NO_CHESTS:           PROC_NO_CHESTS,
-NOTHING_TO_CATCH:    PROC_NOTHING_TO_CATCH,
-WEALTH:              PROC_WEALTH,
-COVER_MATERIAL:      PROC_COVER_MATERIAL,
-WEAR:                PROC_WEAR,
-WEAPON:              PROC_WEAPON,
-FIRST_IN_MINDS:      PROC_FIRST_IN_MINDS
-}
+#Создание словаря автоматически, по началу функций PROC
+all_procs = [x for x in dir() if x.startswith("PROC_")] #Получаем имена всех объектов, начинающихся с PROC_
+globs = globals() #Получаем словарь всех объектов модуля
+RegularExpressions = {} 
+for i in all_procs:
+    RegularExpressions[globs[i[5:]]] = globs[i] #Устанавливаем соответствие между объектом-регулярным выражением и функцией-обработчиком
 
 def Regulars(text):
+    """Запускает цикл перебора на соответствие регулярным выражениям"""
     result = None
     for exp in RegularExpressions:
         if exp.match(text):                        #Фраза соответствует шаблону

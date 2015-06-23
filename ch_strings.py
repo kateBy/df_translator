@@ -31,13 +31,17 @@ def GET_TRANSLATE(original):
     print("TRANSL --->\"%s\"" % original)
     return original
 
-
-regulars.GET_TRANSLATE = GET_TRANSLATE
+#Передаём модулю обработчик перевода, потому что нет возможности перекрестного импорта
+regulars.GET_TRANSLATE = GET_TRANSLATE 
 
 
 #Сюда вносятся новые строки для теста
 InstanceStrings = {
-
+"Yak Bull" : "Як",
+"Wavy Blades" : "Волнистые Клинки",
+"Curved Mauls" : "Изогнутые Кувалды",
+"Thin Daggers" : "Тонкие Кинжалы",
+"coconut palms" : "кокосовые пальмы"
 }
 
 
@@ -94,8 +98,9 @@ def GetTranslate(_text):
     result = regulars.Regulars(text)
     if result != None:
         return toUTF16(result)
-   
-    return None
+
+    #Если никак не получилось получить перевод
+    return None 
         
 
         
