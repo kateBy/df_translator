@@ -45,6 +45,9 @@ WEALTH              = re.compile(r"  The Wealth of (\w+(?: \w+)*)") # "  The Wea
 WOOD_LOGS           = re.compile(r"(\w+(?: \w+)*) wood logs") # bitter orange logs
 TREES               = re.compile(r"(\w+(?: \w+)*) trees") # bitter paradise nut trees
 LEATHER             = re.compile(r"(.+(?: \w+)*) Leather") # Giant Jackal Man Leather
+MEAT                = re.compile(r"(.+(?: \w+)*) (?:meat|Meat)") # guineafowl meat
+FISH                = re.compile(r"(Unprepared Raw )*(\w+(?: \w+)*), (♀|♂)") #FIXME!
+
 
 MAKE                = re.compile(r"\s*(make|Make|Construct|Extract) ("+ MATS_DIVIDED +") (\w+(?: \w+)*)") #Construct wooden Armor Stand
 WEAR                = re.compile(r"\(*(\w+(?: \w+)*) (silk|wool|leather|fiber) (\w+(?: \w+)*)") # cave spider silk trousers
@@ -101,6 +104,19 @@ def PROC_FIRST_IN_MINDS(text):
     tmp = FIRST_IN_MINDS.findall(text)[0]
     return '"' + GET_TRANSLATE(tmp) + '"'
 
+def PROC_FISH(text):
+    print(text)
+    tmp = FISH.findall(text)[0]
+    
+    name = GET_TRANSLATE(tmp[1])
+    gender = tmp[2]
+    
+    if tmp[0] == "Unprepared Raw ":
+        return "Неприготовленый сырой " + name + ", " + gender
+    else:
+        return name + ", " + gender
+    
+
 #========== G ==========
 #========== H ==========
 #========== I ==========
@@ -139,6 +155,12 @@ def PROC_MAKE(text):
     material = GET_MATERIAL(tmp[1], gender)
 
     return " ".join([action, material, thing])
+
+def PROC_MEAT(text):
+    tmp = MEAT.findall(text)[0]
+    transl = GET_TRANSLATE(tmp)
+
+    return "мясо " + transl
 
 #========== N ==========
 

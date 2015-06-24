@@ -58482,3 +58482,210 @@ msgstr "носок"
 msgid "wolverine"
 msgstr "россомаха"
 
+msgid "Giant Brown Recluse Spider Silk Cloth"
+msgstr "Ткань из Шелка Гигантского Коричневого Паука-Отшельника"
+
+msgid "Cotton Plant Fiber Cloth"
+msgstr "Ткань из волокон Хлопчатника"
+
+msgid "Alpaca Wool Cloth"
+msgstr "Ткань из Шерсти Альпаки"
+
+msgid "Cave Spider Silk Thread"
+msgstr "Нить из Шелка Пещерного Паука"
+
+msgid "Troll Fur Cloth"
+msgstr "Ткань из меха Тролля"
+
+msgid "Flashing Sparks Cloth"
+msgstr "Ткань из Ткани Сияющих Вспышек"
+
+msgid "Flashing Sparks Thread"
+msgstr "Ткань из Сияющих Вспышек"
+
+msgid "Cave Spider Silk Cloth"
+msgstr "Ткань из Шелка Пещерного Паука"
+
+msgid "Pig Tail Fiber Cloth"
+msgstr "Ткань из волокон Свинохвоста"
+
+msgid "Shining Cloth Thread"
+msgstr "Нить из Сияющей Ткани"
+
+msgid "Yak Bull"
+msgstr "Як"
+
+msgid "guineafowl"
+msgstr "цесарка"
+
+msgid "Phantom Spider Silk Thread"
+msgstr "Нить из Шелка Фантомного Паука"
+
+msgid "Hemp Plant Fiber Thread"
+msgstr "Нить из волокон Куста Конопли"
+
+msgid "Hemp Plant Fiber Cloth"
+msgstr "Ткань из волокон Куста Конопли"
+
+msgid "Moist Fabric Cloth"
+msgstr "Ткань из Влажной Ткани"
+
+msgid "Kenaf Plant Fiber Thread"
+msgstr "Нить из волокон Гибикси"
+
+msgid "Cotton Plant Fiber Thread"
+msgstr "Нить из волокон Хлопчатника"
+
+msgid "Brown Recluse Spider Man Silk Thread"
+msgstr "Нить из Шелка Коричневого Пауканца-Отшельника"
+
+msgid "Kenaf Plant Fiber Cloth"
+msgstr "Ткань из волокон Гибикси"
+
+msgid "Llama Wool Yarn"
+msgstr "Пряжа из Шерсти Ламы"
+
+msgid "Dirty Fabric Thread"
+msgstr "Грязная фабричная нить"
+
+msgid "Worm"
+msgstr "Червь"
+
+msgid "Giant Cave Spider Silk Cloth"
+msgstr "Ткань из Шелка Гигантского Пещерного Паука"
+
+msgid "Twisted Fabric Cloth"
+msgstr "Ткань из Витой Ткани"
+
+msgid "Multicolored Cloth Cloth"
+msgstr "Ткань из Многоцветного"
+
+msgid "Curved Mauls"
+msgstr "Изогнутые Кувалды"
+
+msgid "Rope Reed Fiber Thread"
+msgstr "Нить из волокон Веревочного Тросника"
+
+msgid "Llama Wool Cloth"
+msgstr "Ткань из Шерсти Ламы"
+
+msgid "Jute Plant Fiber Cloth"
+msgstr "Ткань из волокон Джутового Куста"
+
+msgid "coconut palms"
+msgstr "кокосовые пальмы"
+
+msgid "Translucent Cloth Cloth"
+msgstr "Ткань из Колеблюще"
+
+msgid "Undulating Cloth Cloth"
+msgstr "Ткань из Волнообразной Ткани"
+
+msgid "Toad"
+msgstr "Жаба"
+
+msgid "Dirty Fabric Cloth"
+msgstr "Ткань из Грязной Ткани"
+
+msgid "Forgotten Beast Silk Cloth"
+msgstr "Ткань из Шелка Забытого Чудовища"
+
+msgid "Sheep Wool Yarn"
+msgstr "Пряжа из Шерсти Овцы"
+
+msgid "Thin Daggers"
+msgstr "Тонкие Кинжалы"
+
+msgid "Giant Cave Spider Silk Thread"
+msgstr "Нить из Шелка Гигантского Пещерного Паука"
+
+msgid "Twisted Fabric Thread"
+msgstr "Витая Нить"
+
+msgid "Forgotten Beast Silk Thread"
+msgstr "Нить из Шелка Забытого Чудовища"
+
+msgid "Troll Fur Yarn"
+msgstr "Пряжа из Меха Тролля"
+
+msgid "Translucent Cloth Thread"
+msgstr "Нить из Колеблющейся Ткани"
+
+msgid "Flax Plant Fiber Cloth"
+msgstr "Ткань из волокон Стебля Льна"
+
+msgid "Sheep Wool Cloth"
+msgstr "Ткань из Шерсти Овцы"
+
+msgid "Adamantine Strands"
+msgstr "Адамантиновые Нити"
+
+msgid "Brown Recluse Spider Man Silk Cloth"
+msgstr "Ткань из Шелка Коричневого Пауканца-Отшельника"
+
+msgid "Heavy Cloth Thread"
+msgstr "Нить из Тяжелой Ткани"
+
+msgid "Heavy Cloth Cloth"
+msgstr "Ткань из Тяжелого Полотна"
+
+msgid "Undulating Cloth Thread"
+msgstr "Ткань из Волнообразной Ткани"
+
+msgid "Pitch-black Fabric Cloth"
+msgstr "Ткань из Тёмной Материи"
+
+msgid "Rope Reed Fiber Cloth"
+msgstr "Ткань из волокон Верёвочного Тросника"
+
+msgid "Brown Recluse Spider Silk Cloth"
+msgstr "Ткань из Шелка Коричневого Паука-Отшельника"
+
+msgid "Moist Fabric Thread"
+msgstr "Нить из Влажной Ткани"
+
+msgid "Flax Plant Fiber Thread"
+msgstr "Нить из волокон Стебля Льна"
+
+msgid "Pitch-black Fabric Thread"
+msgstr "Нить из Тёмной Материи"
+
+msgid "Multicolored Cloth Thread"
+msgstr "Нить из Многоцветной Ткани"
+
+msgid "Wavy Blades"
+msgstr "Волнистые Клинки"
+
+msgid "Pig Tail Fiber Thread"
+msgstr "Нить из волокон Спинохвоста"
+
+msgid "Ramie Plant Fiber Cloth"
+msgstr "Ткань из волокон Ри"
+
+msgid "Alpaca Wool Yarn"
+msgstr "Пряжа из Шерсти Альпаки"
+
+msgid "Giant Brown Recluse Spider Silk Thread"
+msgstr "Нить из Шелка Гигантского Коричневого Паука-Отшельника"
+
+msgid "Narrow Blowdarts"
+msgstr "Узкие Дротики"
+
+msgid "Adamantine Cloth"
+msgstr "Адамантиновая Ткань"
+
+msgid "Jute Plant Fiber Thread"
+msgstr "Нить из волокон Джутового Куста"
+
+msgid "Phantom Spider Silk Cloth"
+msgstr "Ткань из Шелка Фантомного Паука"
+
+msgid "Shining Cloth Cloth"
+msgstr "Ткань из Сияющей Ткани"
+
+msgid "Ramie Plant Fiber Thread"
+msgstr "Нить из волокон Ри"
+
+msgid "Brown Recluse Spider Silk Thread"
+msgstr "Нить из Шелка Коричневого Паука-Отшельника"
+

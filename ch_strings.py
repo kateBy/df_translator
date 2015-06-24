@@ -37,11 +37,7 @@ regulars.GET_TRANSLATE = GET_TRANSLATE
 
 #Сюда вносятся новые строки для теста
 InstanceStrings = {
-"Yak Bull" : "Як",
-"Wavy Blades" : "Волнистые Клинки",
-"Curved Mauls" : "Изогнутые Кувалды",
-"Thin Daggers" : "Тонкие Кинжалы",
-"coconut palms" : "кокосовые пальмы"
+
 }
 
 
