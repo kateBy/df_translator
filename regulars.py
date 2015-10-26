@@ -6,7 +6,7 @@ import re
 #Должен быть уставновлен из вызывающего модуля
 GET_TRANSLATE = None
 
-MATERIALS = {
+_MATERIALS = {
          "wooden":    {"MADEOF":"из дерева", "MALE":"деревянный", "FEMALE":"деревянную", "MIDDLE":"деревянное", "MULTI":"деревянные"},
          "rock":      {"MADEOF":"из камня",  "MALE":"каменный",   "FEMALE":"каменную",   "MIDDLE":"каменное",   "MULTI":"каменные"},
          "steel":     {"MADEOF":"из стали",  "MALE":"стальной",   "FEMALE":"стальную",   "MIDDLE":"стальное",   "MULTI":"стальные"},
@@ -18,8 +18,12 @@ MATERIALS = {
          "sand":      {"MADEOF":"из песка",  "MALE":"песчаный",   "FEMALE":"песчаная",   "MIDDLE":"песчаное",   "MULTI":"песчаные"},
          "fire clay": {"MADEOF":"из огнеупорной глины",   "MALE":"огнеупорная глина",     "FEMALE":"огнеупорная глина",     "MIDDLE":"огнеупорная глина", "MULTI":"огнеупорная глина"},
          "adamantine":{"MADEOF":"из адамантина",  "MALE":"адамантиновый",   "FEMALE":"адамантиновую",   "MIDDLE":"адамантиновое",   "MULTI":"адамантиновые"}
-         
          }
+
+#Добавляем в словарь те же материалы, только с заглавной буквы
+MATERIALS = dict(_MATERIALS)
+for x in _MATERIALS:
+	MATERIALS[x[0].upper() + x[1:]] = _MATERIALS[x]
 
 MATS_DIVIDED = "|".join([x for x in MATERIALS]) #Материалы, разделенные | для вставки в регулярные выражения
 
@@ -37,13 +41,14 @@ ORE_OF              = re.compile(r"Ore of (\w+)")#Ore of iron
 WORLD_SIZE_STRING   = re.compile(r"This controls the size of the world map.  Current: (.+)")
 WORLD_HISTORY       = re.compile(r"This is the length of pre-generated history.  Current: (\d+) years")
 YEAR_NUM            = re.compile(r"Year (\d+)") # Year 1150
-COVER_MATERIAL      = re.compile(r"(" + MATS_DIVIDED + ") (Downward\ Slope|Upward\ Slope|Cavern\ Floor|Downward\ Stairway|Up/Down Stairway)") #chalk Cavern Floor
+COVER_MATERIAL      = re.compile(r"(\w+(?: \w+)*) (Downward\ Slope|Upward\ Slope|Cavern\ Floor|Downward\ Stairway|Up/Down Stairway|Wall)") #chalk Cavern Floor
 NO_CHESTS           = re.compile(r"(No|\d+) (\w+(?: \w+)*)")#No Chests "5 Cabinets"
 NOTHING_TO_CATCH    = re.compile(r"There is nothing to catch in the (\w+) swamps")
 WEALTH              = re.compile(r"  The Wealth of (\w+(?: \w+)*)") # "  The Wealth of НазваниеКрепости
 
 WOOD_LOGS           = re.compile(r"(\w+(?: \w+)*) wood logs") # bitter orange logs
 TREES               = re.compile(r"(\w+(?: \w+)*) trees") # bitter paradise nut trees
+TREE_ROOTS          = re.compile(r"(\w+) tree roots")# apple tree roots
 LEATHER             = re.compile(r"(.+(?: \w+)*) Leather") # Giant Jackal Man Leather
 MEAT                = re.compile(r"(.+(?: \w+)*) (?:meat|Meat)") # guineafowl meat
 FISH                = re.compile(r"(Unprepared Raw )*(\w+(?: \w+)*), (♀|♂)") #FIXME!
@@ -54,7 +59,9 @@ WEAR                = re.compile(r"\(*(\w+(?: \w+)*) (silk|wool|leather|fiber) (
 WEAPON              = re.compile(r"\(*(" + MATS_DIVIDED + ") (\w+(?: \w+)*)( \[\d\])*\)*") # copper Battle Axe
 
 FIRST_IN_MINDS      = re.compile(r'"(.+)"') # "I don't like being obligated to anybody."
-
+THE_NOBLES          = re.compile(r"\s*The Nobles and Administrators of (\w+(?: \w+)*)\s*") #The Nobles and Administrators of Mosusvod
+THE_NOBLES_INFO     = re.compile(r"\s*(\w+(?: \w+)*), \"(\w+(?: \w+)*)\", (\w+(?: \w+)*)") #Name, "Alias Alias", должность
+CHOOSE_THE          = re.compile(r"  Choose the (\w+(?: \w+)*) of (\w+(?: \w+)*)") #Choose the manager of Mosusvod
 
 
 def TEST_GENDER(word):
@@ -76,6 +83,7 @@ def TEST_GENDER(word):
 
 
 def GET_MATERIAL(word, form_type):
+    """Возвращает форму материала в соответствии с нужной формой"""
     if not form_type in ["MALE", "FEMALE", "MIDDLE", "MULTI", "MADEOF"]:
         return word
 
@@ -88,6 +96,12 @@ def GET_MATERIAL(word, form_type):
 #========== A ==========
 #========== B ==========
 #========== C ==========
+
+def PROC_CHOOSE_THE(text):
+    tmp = CHOOSE_THE.findall(text)[0]
+    transl = GET_TRANSLATE(tmp[0])
+
+    return "Выбирите " + transl + " крепости " + tmp[1]
     
 def PROC_COVER_MATERIAL(text):
     """Функция обрабатывает строки вида: chalk Cavern Floor"""
@@ -227,12 +241,28 @@ def PROC_STRAY_ANIMAL_GENDER(text):
 
 #========== T ==========
 
+def PROC_THE_NOBLES(text):
+    """Администрация и знать"""
+    tmp = THE_NOBLES.findall(text)[0]
+    return "Знать и Администрация " + tmp
+
+def PROC_THE_NOBLES_INFO(text):
+    """Заголовок о знати и администрации"""
+    name, alias, post = THE_NOBLES_INFO.findall(text)[0]
+    return "%s, \"%s\", %s" % (name, alias, GET_TRANSLATE(post))
+
 def PROC_TREES(text):
     """Обрабатываются строки в настройках склада, например: banana trees"""
     tmp = TREES.findall(text)[0]
     transl = GET_TRANSLATE(tmp)
 
     return "древесина " + transl
+
+def PROC_TREE_ROOTS(text):
+    tmp = TREE_ROOTS.findall(text)[0]
+    transl = GET_TRANSLATE(tmp)
+
+    return "корни " + transl
 
     
 #========== U ==========
@@ -248,7 +278,7 @@ def PROC_WATER_COVERING(text):
     tmp = WATER_COVERING.findall(text)[0]
     trans = GET_TRANSLATE(tmp)
     gender = TEST_GENDER(trans)
-    return TEMPLATE[gender] % trans 
+    return TEMPLATE[gender] % trans    
 
 def PROC_WEALTH(text):
     """Эта строчка появляется вверху, при просмотре запасов"""
