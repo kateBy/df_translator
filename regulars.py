@@ -41,7 +41,7 @@ ORE_OF              = re.compile(r"Ore of (\w+)")#Ore of iron
 WORLD_SIZE_STRING   = re.compile(r"This controls the size of the world map.  Current: (.+)")
 WORLD_HISTORY       = re.compile(r"This is the length of pre-generated history.  Current: (\d+) years")
 YEAR_NUM            = re.compile(r"Year (\d+)") # Year 1150
-COVER_MATERIAL      = re.compile(r"(\w+(?: \w+)*) (Downward\ Slope|Upward\ Slope|Cavern\ Floor|Downward\ Stairway|Up/Down Stairway|Wall)") #chalk Cavern Floor
+COVER_MATERIAL      = re.compile(r"(Damp )*(Rough-hewn )*(\w+(?: \w+)*) (Downward\ Slope|Upward\ Slope|Cavern\ Floor|Downward\ Stairway|Up/Down Stairway|Wall)") #chalk Cavern Floor
 NO_CHESTS           = re.compile(r"(No|\d+) (\w+(?: \w+)*)")#No Chests "5 Cabinets"
 NOTHING_TO_CATCH    = re.compile(r"There is nothing to catch in the (\w+) swamps")
 WEALTH              = re.compile(r"  The Wealth of (\w+(?: \w+)*)") # "  The Wealth of НазваниеКрепости
@@ -106,9 +106,16 @@ def PROC_CHOOSE_THE(text):
 def PROC_COVER_MATERIAL(text):
     """Функция обрабатывает строки вида: chalk Cavern Floor"""
     tmp = COVER_MATERIAL.findall(text)[0]
-    wat = GET_TRANSLATE(tmp[1])
-    mat = GET_MATERIAL(tmp[0], "MADEOF")
-    return wat + " " + mat
+    dump = ""
+    rough = ""
+    if tmp[0] != "":
+        dump = "мокрая "
+    if tmp[1] != "":
+        rough = "грубая "
+        
+    wat = GET_TRANSLATE(tmp[3]) + " "
+    mat = GET_MATERIAL(tmp[2], "MADEOF")
+    return dump + rough + wat + mat
 
 #========== D ==========
 #========== E ==========
